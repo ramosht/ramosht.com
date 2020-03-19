@@ -2,14 +2,14 @@ import React from 'react'
 
 import SEO from '../components/seo'
 import Layout from '../components/Layout'
-import Profile from '../components/Profile'
 
-const About = () => {
+const Sobre = () => {
     return (
         <Layout>
-            <SEO title="About" />
+            <SEO title="Sobre" />
+            sobre
         </Layout>
     )
 }
 
-export default About
+export default Sobre

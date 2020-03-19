@@ -9714,6 +9714,11 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-animated-burgers@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/react-animated-burgers/-/react-animated-burgers-1.2.7.tgz#5fda9ec65134381a5c7eef866567f8f509a63fe9"
+  integrity sha512-2eCX3MBu2HYZMauzmod74MJz884/1sUqYOg4E/4sQQVu09FU26bjCdiIuNK/o1GZxfFNs2zFJTdRI7OmmclgSA==
+
 react-dev-utils@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-4.2.3.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"

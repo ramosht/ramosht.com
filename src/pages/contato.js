@@ -3,13 +3,13 @@ import React from 'react'
 import SEO from '../components/seo'
 import Layout from '../components/Layout'
 
-const Blog = () => {
+const Contato = () => {
     return (
         <Layout>
-            <SEO title="Blog" />
-            blog
+            <SEO title="Contato" />
+            contato
         </Layout>
     )
 }
 
-export default Blog
+export default Contato
