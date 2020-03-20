@@ -21,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
         font-family: 'Raleway', sans-serif;
+        color: #333;
     }
 
     /* HTML5 display-role reset for older browsers */
@@ -50,6 +51,17 @@ const GlobalStyles = createGlobalStyle`
     table {
         border-collapse: collapse;
         border-spacing: 0;
+    }
+
+    .layout--title {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .t-semi-bold {
+        font-weight: 600;
     }
 `;
 

@@ -7,7 +7,7 @@ export const AsideWrapper = styled.aside`
     width: 100vw;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -110%;
     background: #333;
 
     @media screen and (min-width: 768px) {
