@@ -1,6 +1,8 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
+
 import Avatar from '../Avatar'
+import SocialLinks from '../SocialLinks'
 
 import * as s from "./styled"
 
@@ -21,6 +23,7 @@ export default () => {
             <Avatar />
             <s.ProfileName>{ name }</s.ProfileName>
             <s.ProfilePosition>{ position }</s.ProfilePosition>
+            <SocialLinks />
         </s.ProfileWrapper>
     )
 }

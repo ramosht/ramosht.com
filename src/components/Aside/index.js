@@ -3,7 +3,6 @@ import * as s from './styled.js'
 
 // Components
 import Profile from "../Profile"
-// import { HamburgerSpin } from 'react-animated-burgers'
 
 const Aside = () => {
     const [ hamburgerState, setHamburgerState ] = useState(false);

@@ -30,7 +30,7 @@ export const ProfileWrapper = styled.div`
     transform: translateX(-50%);
     color: #fff;
 
-    display: none;
+    // display: none;
 `;
 
 export const Navbar = styled.ul`
