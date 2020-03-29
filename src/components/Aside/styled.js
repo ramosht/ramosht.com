@@ -9,9 +9,15 @@ export const AsideWrapper = styled.aside`
     top: 0;
     left: -110%;
     background: #333;
+    transition: left .5s ease-in-out;
 
     @media screen and (min-width: 768px) {
-        width: 30rem;
+        width: 25rem;
+        left: 0;
+    }
+
+    &.shown {
+        left: 0;
     }
 `;
 

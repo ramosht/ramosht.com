@@ -1,23 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import * as s from './styled.js'
 
 // Components
 import Profile from "../Profile"
-import { HamburgerSpin } from 'react-animated-burgers'
-
-// state = {
-//     isActive: false
-// }
-
-// toggleButton = () => {
-//     this.setState({
-//         isActive: !this.state.isActive
-//     })
-// }
+// import { HamburgerSpin } from 'react-animated-burgers'
 
 const Aside = () => {
+    const [ hamburgerState, setHamburgerState ] = useState(false);
+    const [ asideState, setAsideState ] = useState(false);
+    
+    function toggleButton() {
+        setHamburgerState(!hamburgerState);
+        setAsideState(!asideState);
+    }
+    
     return (
-        <s.AsideWrapper>
+        <s.AsideWrapper className={ asideState ? 'shown' : '' }>
             <s.Navbar>
                 <s.NavbarItem>
                     <s.NavbarLink to="/" activeClassName="active">Início</s.NavbarLink>
@@ -40,7 +38,7 @@ const Aside = () => {
                 <Profile />
             </s.ProfileWrapper>
 
-            <s.Hamburger buttonColor="#000" barColor="white" buttonWidth={30}  />
+            <s.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#000" barColor="white" buttonWidth={30}  />
         </s.AsideWrapper>   
     )
 }
