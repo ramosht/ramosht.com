@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const SocialLinksWrapper = styled.nav`
     margin: 2rem auto;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const SocialLinksList = styled.ul`

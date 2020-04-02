@@ -47,13 +47,13 @@ export const Navbar = styled.ul`
 
 export const NavbarItem = styled.li`
     text-transform: uppercase;
-    margin: .5rem 0;
+    margin: 1.25rem 0;
 `;
     
 export const NavbarLink = styled(Link)`
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     opacity: 50%;
     
