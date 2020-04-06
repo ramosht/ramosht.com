@@ -8,7 +8,7 @@ export const AsideWrapper = styled.aside`
     position: fixed;
     top: 0;
     left: -110%;
-    background: #333;
+    background-image: linear-gradient(to top, #1C1018, #190A14);
     transition: left .5s ease-in-out;
 
     @media screen and (min-width: 768px) {

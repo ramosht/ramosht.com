@@ -10,14 +10,6 @@ const links = [
     {
         label: 'Instagram',
         url: 'https://instagram.com/ramos_ht'
-    },
-    {
-        label: 'Github',
-        url: 'https://github.com/ramosht'
-    },
-    {
-        label: 'Unsplash',
-        url: 'https://unsplash.com/@ramosht'
     }
 ]
 

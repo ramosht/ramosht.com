@@ -20,13 +20,7 @@ const Aside = () => {
                     <s.NavbarLink to="/" activeClassName="active">Início</s.NavbarLink>
                 </s.NavbarItem>
                 <s.NavbarItem>
-                    <s.NavbarLink to="/sobre" activeClassName="active">Sobre mim</s.NavbarLink>
-                </s.NavbarItem>
-                <s.NavbarItem>
-                    <s.NavbarLink to="/blog" activeClassName="active">Blog</s.NavbarLink>
-                </s.NavbarItem>
-                <s.NavbarItem>
-                    <s.NavbarLink to="/portfolio" activeClassName="active">Portfolio</s.NavbarLink>
+                    <s.NavbarLink to="/curriculo" activeClassName="active">Currículo</s.NavbarLink>
                 </s.NavbarItem>
                 <s.NavbarItem>
                     <s.NavbarLink to="/contato" activeClassName="active">Contato</s.NavbarLink>
