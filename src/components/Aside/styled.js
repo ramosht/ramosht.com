@@ -33,34 +33,34 @@ export const ProfileWrapper = styled.div`
     // display: none;
 `;
 
-export const Navbar = styled.ul`
-    list-style: none;
-    padding: 0;
-    margin: 0;
+// export const Navbar = styled.ul`
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-`;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     text-align: center;
+// `;
 
-export const NavbarItem = styled.li`
-    text-transform: uppercase;
-    margin: 1.25rem 0;
-`;
+// export const NavbarItem = styled.li`
+//     text-transform: uppercase;
+//     margin: 1.25rem 0;
+// `;
     
-export const NavbarLink = styled(Link)`
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 400;
-    opacity: 50%;
+// export const NavbarLink = styled(Link)`
+//     color: #fff;
+//     text-decoration: none;
+//     font-size: 1.25rem;
+//     font-weight: 400;
+//     opacity: 50%;
     
-    &.active {
-        opacity: 100%;
-    }
-`;
+//     &.active {
+//         opacity: 100%;
+//     }
+// `;
 
 export const Hamburger = styled(HamburgerSpin)`
     position: fixed;

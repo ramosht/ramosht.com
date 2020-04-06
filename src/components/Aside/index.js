@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import * as s from './styled.js'
+import MenuLinks from '../MenuLinks'
 
 // Components
 import Profile from "../Profile"
@@ -15,17 +16,7 @@ const Aside = () => {
     
     return (
         <s.AsideWrapper className={ asideState ? 'shown' : '' }>
-            <s.Navbar>
-                <s.NavbarItem>
-                    <s.NavbarLink to="/" activeClassName="active">Início</s.NavbarLink>
-                </s.NavbarItem>
-                <s.NavbarItem>
-                    <s.NavbarLink to="/curriculo" activeClassName="active">Currículo</s.NavbarLink>
-                </s.NavbarItem>
-                <s.NavbarItem>
-                    <s.NavbarLink to="/contato" activeClassName="active">Contato</s.NavbarLink>
-                </s.NavbarItem>
-            </s.Navbar>
+            <MenuLinks />
 
             <s.ProfileWrapper>
                 <Profile />
