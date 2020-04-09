@@ -22,7 +22,7 @@ const Aside = () => {
                 <Profile />
             </s.ProfileWrapper>
 
-            <s.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#000" barColor="white" buttonWidth={30}  />
+            <s.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#01d4b3" barColor="white" buttonWidth={30}  />
         </s.AsideWrapper>   
     )
 }

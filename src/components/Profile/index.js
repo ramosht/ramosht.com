@@ -7,12 +7,12 @@ import SocialLinks from '../SocialLinks'
 import * as s from "./styled"
 
 export default () => {
-    const { site: { siteMetadata: { name, position } } } = useStaticQuery(graphql`
+    const { site: { siteMetadata: { name, description } } } = useStaticQuery(graphql`
         query {
             site {
                 siteMetadata {
                     name
-                    position
+                    description
                 }
             }
         }
@@ -22,7 +22,7 @@ export default () => {
         <s.ProfileWrapper>
             <Avatar />
             <s.ProfileName>{ name }</s.ProfileName>
-            <s.ProfilePosition>{ position }</s.ProfilePosition>
+            <s.ProfilePosition>{ description }</s.ProfilePosition>
             <SocialLinks />
         </s.ProfileWrapper>
     )

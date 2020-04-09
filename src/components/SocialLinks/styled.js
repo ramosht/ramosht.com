@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SocialLinksWrapper = styled.nav`
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 100%;
 
     @media screen and (max-width: 768px) {
@@ -29,7 +29,7 @@ export const SocialLinksLink = styled.a`
     }
 
     svg {
-        fill: #bbb;
+        fill: #fff;
         width: 30px;
         height: 30px;
     }

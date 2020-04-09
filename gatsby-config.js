@@ -3,7 +3,7 @@ module.exports = {
     title: `Ramosht`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front-end | UX`,
-    description: `Desenvolvedor front-end, fotógrafo e músico. Para mim, desenvolver sites é mais do que sobre escrever códigos: é sobre alcançar pessoas.`,
+    description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor :)`,
     author: `@guilherme`,
   },
   plugins: [
