@@ -9,7 +9,7 @@ export const Layout = styled.div`
 export const Main = styled.main`
     padding: 2rem 1rem;
     @media screen and (min-width: 768px) {
-        max-width: 45rem;
+        max-width: 65rem;
         margin: 0 auto;
     }
 `;

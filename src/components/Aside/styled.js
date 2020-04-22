@@ -8,7 +8,11 @@ export const AsideWrapper = styled.aside`
     position: fixed;
     top: 0;
     left: -110%;
-    background-image: linear-gradient(to top, #003666 0%, #00ffc7 100%);
+    background-image: url('https://wallpaperaccess.com/full/128783.jpg');
+    background-color: rgba(129, 140, 131, .5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
     transition: left .5s ease-in-out;
 
     @media screen and (min-width: 768px) {

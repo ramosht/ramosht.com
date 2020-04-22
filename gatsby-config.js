@@ -3,7 +3,7 @@ module.exports = {
     title: `Ramosht`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front-end | UX`,
-    description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor :)`,
+    description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 😁`,
     author: `@guilherme`,
   },
   plugins: [
@@ -14,6 +14,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
       },
     },
     `gatsby-transformer-sharp`,

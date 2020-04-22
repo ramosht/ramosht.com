@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styled';
 import PropTypes from 'prop-types'
 
-export default function PostItem({ slug, category, date, title, description }) {
+export default function PostItem({ slug, category, date, title, description, thumbnail }) {
   return (
     <S.PostItemWrapper to={ slug }>
         <S.PostItemHeader>
@@ -20,5 +20,6 @@ PostItem.propTypes = {
   category: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired
 }

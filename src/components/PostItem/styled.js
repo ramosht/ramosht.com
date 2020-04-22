@@ -10,10 +10,6 @@ export const PostItemWrapper = styled(Link)`
   text-decoration: none;
   margin: 1rem;
 
-  @media screen and (min-width: 1200px) {
-    max-width: 30rem;
-  }
-
   &:hover {
     h1 {
       color: #01d4b3;
@@ -32,16 +28,17 @@ export const PostDate = styled.time`
 `;
 
 export const PostCategory = styled.span`
-  display: block;
-  padding: .5rem;
-  background: #01d4b3;
-  color: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 0 .5rem;
   margin-left: 1rem;
+  font-weight: 700;
 `;
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.75rem;
-  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 1.3125rem;
+  font-weight: 600;
   margin: 1rem 0 .5rem 0;
   color: #1C1018;
   transition: color .2s;
