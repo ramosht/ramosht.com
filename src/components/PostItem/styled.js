@@ -37,7 +37,7 @@ export const PostCategory = styled.span`
 
 export const PostItemTitle = styled.h1`
   font-size: 1.375rem;
-  line-height: 1.3125rem;
+  line-height: 1.35;
   font-weight: 600;
   margin: 1rem 0 .5rem 0;
   color: #1C1018;
@@ -47,4 +47,5 @@ export const PostItemTitle = styled.h1`
 export const PostItemDescription = styled.p`
   font-size: 1.15rem;
   color: #666;
+  line-height: 1.15;
 `;
