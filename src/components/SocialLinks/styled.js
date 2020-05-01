@@ -30,7 +30,7 @@ export const SocialLinksLink = styled.a`
 
     svg {
         fill: #fff;
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
     }
 `;
