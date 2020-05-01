@@ -8,8 +8,8 @@ export const AsideWrapper = styled.aside`
     position: fixed;
     top: 0;
     left: -110%;
-    background-image: url('https://wallpaperaccess.com/full/128783.jpg');
-    background-color: rgba(129, 140, 131, .5);
+    background-image: var(--sidebarBackground);
+    background-color: var(--themeColor);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -32,39 +32,8 @@ export const ProfileWrapper = styled.div`
     width: 100%;
 
     transform: translateX(-50%);
-    color: #fff;
-
-    // display: none;
+    color: var(--white);
 `;
-
-// export const Navbar = styled.ul`
-//     list-style: none;
-//     padding: 0;
-//     margin: 0;
-    
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     text-align: center;
-// `;
-
-// export const NavbarItem = styled.li`
-//     text-transform: uppercase;
-//     margin: 1.25rem 0;
-// `;
-    
-// export const NavbarLink = styled(Link)`
-//     color: #fff;
-//     text-decoration: none;
-//     font-size: 1.25rem;
-//     font-weight: 400;
-//     opacity: 50%;
-    
-//     &.active {
-//         opacity: 100%;
-//     }
-// `;
 
 export const Hamburger = styled(HamburgerSpin)`
     position: fixed;

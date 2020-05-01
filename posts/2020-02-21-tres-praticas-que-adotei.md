@@ -18,6 +18,24 @@ You will like those projects!
 
 ---
 
+![Forest](/assets/img/forest.jpg)
+
+```jsx
+import React from "react"
+import Profile from "../Profile"
+import SocialLinks from "../SocialLinks"
+import MenuLinks from "../MenuLinks"
+import * as S from "./styled"
+const Sidebar = () => (
+  <S.SidebarWrapper>
+    <Profile />
+    <SocialLinks />
+    <MenuLinks />
+  </S.SidebarWrapper>
+)
+export default Sidebar
+```
+
 # h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading

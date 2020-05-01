@@ -1,6 +1,39 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+    body {
+        --themeColor: #818c83;
+
+        --text: #212121;
+        --highlight: #3d2c40;
+        --recommendedBackground: #f4f4f4;
+        --recommendedColor: #aaa;
+        --background: #fff;
+        --postBackground: #fff;
+
+        --black-01: #212121;
+        --black-02: #444;
+        --gray-01: #666;
+        --gray-02: #aaa;
+        --gray-03: #f4f4f4;
+        --white: #fff;
+
+        --sidebarBackground: url('https://wallpaperaccess.com/full/128783.jpg');
+    }
+
+    body.light {
+        --themeColor: #3d2c40;
+
+        --text: #fff;
+        --highlight: #fff;
+        --recommendedBackground: #261a26;
+        --recommendedColor: #fff;
+        --background: #3d2c40;
+        --postBackground: #261a26;
+
+        --sidebarBackground: url('https://blog.emania.com.br/wp-content/uploads/2015/11/composi%C3%A7%C3%A3o-astrofotografia.jpg');
+    }
+
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -21,7 +54,6 @@ const GlobalStyles = createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
         font-family: 'Raleway', sans-serif;
-        color: #333;
     }
 
     /* HTML5 display-role reset for older browsers */

@@ -5,14 +5,14 @@ export const ProfileWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: var(--white);
     padding: 0 1rem;
     `;
     
     export const ProfileName = styled.h1`
     font-size: 1.15rem;
     margin-top: .5rem;
-    color: #fff;
+    color: var(--white);
     `;
     
     export const ProfilePosition = styled.p`
@@ -20,7 +20,7 @@ export const ProfileWrapper = styled.div`
         line-height: 1.25;
         margin: 1.5rem 0;
         font-weight: 200;
-        color: #fff;
+        color: var(--white);
         letter-spacing: 1px;
         text-align: center;
         position: relative;
@@ -33,7 +33,7 @@ export const ProfileWrapper = styled.div`
             transform: translate(-50%, -50%);
             width: 4rem;
             height: 1px;
-            background: #fff;
+            background: var(--white);
             opacity: .35;
         }
 

@@ -20,12 +20,12 @@ export const MenuLinksItem = styled.li`
   margin: 1.25rem 0;
 
   .active {
-    color: #fff;
+    color: var(--white);
   }
 `;
 
 export const MenuLinksLink = styled(Link)`
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 400;

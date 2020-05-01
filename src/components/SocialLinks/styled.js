@@ -19,17 +19,12 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``;
 
 export const SocialLinksLink = styled.a`
-    color: #8899a6;
     text-decoration: none;
     transition: color .5s;
     margin: 0 .5rem;
 
-    &:hover {
-        color: #1fa1f2;
-    }
-
     svg {
-        fill: #fff;
+        fill: var(--white);
         width: 24px;
         height: 24px;
     }
