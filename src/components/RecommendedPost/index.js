@@ -8,11 +8,13 @@ const RecommendedPost = ({ nextPost, previousPost }) => {
     <S.PostPaginationWrapper>
       {previousPost && 
         <S.PostPaginationLink to={previousPost.fields.slug}>
+          <S.PostPaginationLabel>Post Anterior:</S.PostPaginationLabel>
           {previousPost.frontmatter.title}
         </S.PostPaginationLink>}
         
       {nextPost && 
         <S.PostPaginationLink to={nextPost.fields.slug}>
+          <S.PostPaginationLabel>Próximo Post:</S.PostPaginationLabel>
           {nextPost.frontmatter.title}
         </S.PostPaginationLink>}
     </S.PostPaginationWrapper>
