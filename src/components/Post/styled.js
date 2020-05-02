@@ -3,30 +3,34 @@ import styled from "styled-components"
 export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
-  padding: 5rem 5rem 0;
+  padding: 1rem 0 0;
 `
 
 export const PostTitle = styled.h1`
   font-size: 4rem;
+  @media screen and (max-width: 1200px) {
+    font-size: 2.5rem;
+  }
   font-weight: 700;
   margin: 1rem auto;
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
+  @media screen and (max-width: 1200px) {
+    font-size: 1.75rem;
+  }
   font-weight: 200;
 `
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 100;
-  padding: 0 1.4rem;
+  padding: 0;
 `
 
 export const MainContent = styled.section`
-  margin: auto;
-  max-width: 70rem;
-  padding: 2rem 5rem;
+  padding: 2rem 0;
   p,
   h1,
   h2,
@@ -111,18 +115,33 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 2.8rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 1.8rem;
+    }
   }
   h2 {
     font-size: 2.1rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 1.6rem;
+    }
   }
   h3 {
     font-size: 1.6rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 1.4rem;
+    }
   }
   h4 {
     font-size: 1.4rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 1.2rem;
+    }
   }
   h5 {
     font-size: 1.2rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 1rem;
+    }
   }
   strong {
     font-weight: 700;

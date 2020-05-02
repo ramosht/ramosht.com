@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
-    body {
+    body.light {
         --themeColor: #818c83;
 
         --text: #212121;
@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
         --sidebarBackground: url('https://wallpaperaccess.com/full/128783.jpg');
     }
 
-    body.light {
+    body.dark {
         --themeColor: #3d2c40;
 
         --text: #fff;

@@ -15,6 +15,13 @@ export const AsideWrapper = styled.aside`
     background-blend-mode: multiply;
     transition: left .5s ease-in-out;
 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+
     @media screen and (min-width: 768px) {
         width: 25rem;
         left: 0;
@@ -25,13 +32,24 @@ export const AsideWrapper = styled.aside`
     }
 `;
 
-export const ProfileWrapper = styled.div`
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    width: 100%;
+export const MenuWrapper = styled.div`
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    transform: translateX(-50%);
+    @media screen and (max-width: 576px) {
+        justify-content: flex-start;
+    }
+`;
+
+export const ThemeToggleWrapper = styled.div`
+    margin-top: 1rem;
+`;
+
+export const ProfileWrapper = styled.div`
+    display: block;
+    text-align: center;
     color: var(--white);
 `;
 

@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import * as s from './styled.js'
+import * as S from './styled.js'
 import MenuLinks from '../MenuLinks'
 
 // Components
 import Profile from "../Profile"
+import ThemeToggle from '../ThemeToggle';
 
 const Aside = () => {
     const [ hamburgerState, setHamburgerState ] = useState(false);
@@ -15,15 +16,21 @@ const Aside = () => {
     }
     
     return (
-        <s.AsideWrapper className={ asideState ? 'shown' : '' }>
-            <MenuLinks />
+        <S.AsideWrapper className={ asideState ? 'shown' : '' }>
+            <S.MenuWrapper>
+                <MenuLinks />
+            </S.MenuWrapper>
 
-            <s.ProfileWrapper>
+            <S.ProfileWrapper>
                 <Profile />
-            </s.ProfileWrapper>
+            </S.ProfileWrapper>
 
-            <s.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#01d4b3" barColor="white" buttonWidth={30}  />
-        </s.AsideWrapper>   
+            <S.ThemeToggleWrapper>
+                <ThemeToggle />
+            </S.ThemeToggleWrapper>
+
+            <S.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#01d4b3" barColor="white" buttonWidth={30}  />
+        </S.AsideWrapper>   
     )
 }
 
