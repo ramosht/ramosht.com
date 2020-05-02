@@ -14,11 +14,12 @@ const BlogPost = ({ data, pathContext }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.thumbnail} />
       <S.PostHeader>
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
+        <S.PostThumbnail src={`${data.site.siteMetadata.siteUrl}/assets/img/thumbnails/${post.frontmatter.thumbnail}`} />
       </S.PostHeader>
       <S.MainContent>
         <span dangerouslySetInnerHTML={{__html: post.html}}></span>
@@ -34,6 +35,11 @@ const BlogPost = ({ data, pathContext }) => {
 
 export const query = graphql`
   query BlogPost($slug: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(fields: {slug: {eq: $slug}}) {
       fields {
         slug

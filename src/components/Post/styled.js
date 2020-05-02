@@ -30,6 +30,12 @@ export const PostDate = styled.p`
   padding: 0;
 `
 
+export const PostThumbnail = styled.img`
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1rem;
+`;
+
 export const MainContent = styled.section`
   padding: 2rem 0;
   p,
