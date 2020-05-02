@@ -4,7 +4,7 @@ category: JS
 date: 2019-02-09 05:54:24
 title: Como fazer cartões giratórios usando somente HTML e CSS
 description: And I'm not sure about the lorem
-thumbnail: https://wallpaperaccess.com/full/128783.jpg
+thumbnail: tres-praticas-que-adotei.jpg
 ---
 ---
 __Advertisement :)__

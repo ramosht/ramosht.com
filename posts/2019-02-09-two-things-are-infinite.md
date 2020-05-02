@@ -4,7 +4,7 @@ category: Personal Toughts
 date: 2019-02-09 05:54:24
 title: Two things are infinite
 description: And I'm not sure about the universe
-thumbnail: https://wallpaperaccess.com/full/128783.jpg
+thumbnail: tres-praticas-que-adotei.jpg
 ---
 ---
 __Advertisement :)__
