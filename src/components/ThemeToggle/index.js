@@ -2,21 +2,18 @@ import React, { useState, useEffect } from 'react';
 import * as S from './styled';
 
 const ThemeToggle = () => {
-  const [ theme, setTheme ] = useState('light');
+  const [ theme, setTheme ] = useState(null);
+  const isDarkMode = theme === 'dark';
 
   useEffect(() => {
     setTheme(window.__theme);
     window.__onThemeChange = () => setTheme(window.__theme);
   }, [])
 
-  useEffect(() => {
-    window.__setPreferredTheme(theme);
-  }, [theme])
-
   return (
     <S.ThemeToggleWrapper 
       onClick={() => {
-        theme === 'light' ? setTheme('dark') : setTheme('light');
+        window.__setPreferredTheme(isDarkMode ? 'light' : 'dark');
       }} 
     >
       <S.ThemeToggleIcon>☀️</S.ThemeToggleIcon>

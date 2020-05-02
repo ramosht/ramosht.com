@@ -8,7 +8,6 @@ export const Layout = styled.div`
 
 export const Main = styled.main`
     padding: 2rem;
-    background: var(--background);
     max-width: 70rem;
     margin: 0 auto;
 `;

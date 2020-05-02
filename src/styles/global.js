@@ -1,6 +1,15 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+    body {
+        --black-01: #212121;
+        --black-02: #444;
+        --gray-01: #666;
+        --gray-02: #aaa;
+        --gray-03: #f4f4f4;
+        --white: #fff;
+    }
+
     body.light {
         --themeColor: #818c83;
 
@@ -11,14 +20,9 @@ const GlobalStyles = createGlobalStyle`
         --background: #fff;
         --postBackground: #fff;
 
-        --black-01: #212121;
-        --black-02: #444;
-        --gray-01: #666;
-        --gray-02: #aaa;
-        --gray-03: #f4f4f4;
-        --white: #fff;
-
         --sidebarBackground: url('https://wallpaperaccess.com/full/128783.jpg');
+
+        background: var(--background);
     }
 
     body.dark {
@@ -32,6 +36,8 @@ const GlobalStyles = createGlobalStyle`
         --postBackground: #261a26;
 
         --sidebarBackground: url('https://blog.emania.com.br/wp-content/uploads/2015/11/composi%C3%A7%C3%A3o-astrofotografia.jpg');
+
+        background: var(--background);
     }
 
     html, body, div, span, applet, object, iframe,

@@ -4,6 +4,7 @@ export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   padding: 1rem 0 0;
+  color: var(--text);
 `
 
 export const PostTitle = styled.h1`
