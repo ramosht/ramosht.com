@@ -55,11 +55,11 @@ export const ProfileWrapper = styled.div`
 
 export const Hamburger = styled(HamburgerSpin)`
     position: fixed;
-    bottom: 5rem;
+    bottom: 10rem;
     right: 1rem;
     border-radius: 50%;
-    height: 4rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border: 2px solid #3d2c40;
 
     &:active,
