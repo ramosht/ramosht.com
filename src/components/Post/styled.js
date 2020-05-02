@@ -74,6 +74,11 @@ export const MainContent = styled.section`
     list-style: disc;
     padding-left: 2.5rem;
     margin: 0 auto 1.6rem;
+
+    &.informacoesPessoaisSobre {
+      list-style: none;
+      padding: 0
+    }
   }
   li {
     padding: 0.625rem 0;

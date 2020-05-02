@@ -10,7 +10,10 @@ import ProfessionalExperience from '../../components/ProfessionalExperience'
 const Sobre = () => {
     return (
         <Layout>
-            <SEO title="Sobre" />
+            <SEO 
+                title="Sobre mim" 
+                description="Sou desenvolvedor JS, fotógrafo, músico e cristão. Saiba mais um pouco sobre mim, minhas experiências, habilidades e informações de contato. 🧙🏻‍♂️"
+            />
 
             <main>
                 <PS.PostHeader>
@@ -19,7 +22,7 @@ const Sobre = () => {
                 <PS.MainContent>
                     <div>
                         <p>Sou uma pessoa bastante inquieta, que está, o tempo todo, buscando entender como a tecnologia pode ser usada para melhorar ainda mais a vida das pessoa Afinal de contas, tecnologia é sobre isso, não é? Pessoa</p>
-                        <ul>
+                        <ul className="informacoesPessoaisSobre">
                             <li>
                                 <span className="t-semi-bold">Idade</span>: 22 anos
                             </li>
