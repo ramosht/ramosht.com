@@ -77,6 +77,6 @@ O que eu quero dizer é: pode parecer meio bobo pensar em desacelerar. Muita gen
 
 Ansiedade é um problema sério, todo cuidado é pouco e cada coisa que você pode fazer para se ajudar já vai causar um impacto positivo gigante na sua saúde. Então, agora sou eu que te pergunto: que tal dar uma desacelerada?
 
-![Dois pés para cima de, ao que parece, um sofá, passando a ideia de tranquilidade e leveza.]( "Que tal dar uma desacelerada?")
+![Dois pés para cima de, ao que parece, um sofá, passando a ideia de tranquilidade e leveza.](assets/img/hey-da-uma-desacelerada-06.jpeg "Que tal dar uma desacelerada?")
 
 Bom, fico por aqui. Espero que tenham gostado e, se quiserem conversar, só me chamar no [LinkedIn](https://www.linkedin.com/in/ramosht/) ou no próprio [Instagram](https://instagram.com/ramos_ht), como disse, eu adoro conversar. Fiquem com Deus e se cuidem!
