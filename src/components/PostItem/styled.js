@@ -66,7 +66,7 @@ export const PostCategory = styled.span`
   font-weight: 700;
 
   @media screen and (max-width: 575px) {
-    margin: 0;
+    margin: .5rem 0 0 0;
     padding: 0;
   }
 `;
@@ -84,4 +84,8 @@ export const PostItemDescription = styled.p`
   font-size: 1.15rem;
   color: var(--text);
   line-height: 1.15;
+
+  @media screen and (max-width: 575px) {
+    display: none;
+  }
 `;

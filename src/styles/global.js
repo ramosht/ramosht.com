@@ -12,8 +12,7 @@ const GlobalStyles = createGlobalStyle`
 
     body.light {
         --themeColor: #818c83;
-        
-        --sidebarBackgroundColor: rgba(129, 140, 131, .5);
+
         --text: #212121;
         --highlight: #3d2c40;
         --recommendedBackground: #f4f4f4;
@@ -21,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
         --background: #fff;
         --postBackground: #fff;
 
-        --sidebarBackground: url('https://wallpaperaccess.com/full/128783.jpg');
+        --sidebarBackground: url('./assets/img/background-sidebar-light.jpg');
         --hamburgerColor: #818c83;
 
         background: var(--background);
@@ -29,8 +28,7 @@ const GlobalStyles = createGlobalStyle`
 
     body.dark {
         --themeColor: #3d2c40;
-        
-        --sidebarBackgroundColor: rgba(61, 44, 64, .5);
+
         --text: #fff;
         --highlight: #fff;
         --recommendedBackground: #261a26;
@@ -38,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
         --background: #3d2c40;
         --postBackground: #261a26;
 
-        --sidebarBackground: url('https://blog.emania.com.br/wp-content/uploads/2015/11/composi%C3%A7%C3%A3o-astrofotografia.jpg');
+        --sidebarBackground: url('./assets/img/background-sidebar-dark.jpg');
         --hamburgerColor: #261a26;
 
         background: var(--background);

@@ -95,7 +95,7 @@ const PostList = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1199px) {
     grid-template-columns: 1fr;
     grid-gap: 0rem;
   }
