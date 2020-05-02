@@ -6,11 +6,11 @@ import propTypes from 'prop-types';
 const Pagination = ({ isFirst, isLast, currentPage, numPages, prevPage, nextPage }) => {
   return (
     <S.PaginationWrapper>
-      {!isFirst ? <Link to={prevPage}>página anterior</Link> : ''}
+      {!isFirst ? <S.PaginationLink to={prevPage}>Página Anterior</S.PaginationLink> : ''}
 
       {currentPage} de {numPages}
 
-      {!isLast ? <Link to={nextPage}>próxima página</Link> : ''}
+      {!isLast ? <S.PaginationLink to={nextPage}>Próxima Página</S.PaginationLink> : ''}
     </S.PaginationWrapper>
   )
 }
