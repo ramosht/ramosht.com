@@ -36,6 +36,7 @@ const BlogList = props => {
                         description={description}
                         thumbnail={thumbnail}
                         key={slug}
+                        siteUrl={props.data.site.siteMetadata.siteUrl}
                     />
                 ))
             }
@@ -55,6 +56,11 @@ const BlogList = props => {
 
 export const query = graphql`
   query BlogList($limit: Int!, $skip: Int!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     allMarkdownRemark(
       skip: $skip,
       limit: $limit,
