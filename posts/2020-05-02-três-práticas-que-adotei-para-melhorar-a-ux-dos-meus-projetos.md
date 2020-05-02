@@ -4,7 +4,7 @@ description: Após algum tempo trabalhando sozinho e passando por muitos
   perrengues envolvendo UX, entendi que alguns hábitos no desenvolvimento
   evitariam a maior parte deles.
 category: Outros
-date: 2020-05-02 05:07:22
+date: 2019-07-14 08:00:22
 thumbnail: assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-00.jpeg
 ---
 Fala pessoal, tranquilo?
