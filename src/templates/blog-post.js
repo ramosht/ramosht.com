@@ -19,7 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
-        <S.PostThumbnail src={`${data.site.siteMetadata.siteUrl}/assets/img/thumbnails/${post.frontmatter.thumbnail}`} />
+        <S.PostThumbnail src={`${data.site.siteMetadata.siteUrl}/assets/img/${post.frontmatter.thumbnail}`} />
       </S.PostHeader>
       <S.MainContent>
         <span dangerouslySetInnerHTML={{__html: post.html}}></span>
