@@ -52,9 +52,13 @@ export const MainContent = styled.section`
   .button-post {
     color: var(--text);
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.7;
     letter-spacing: 0.069rem;
+
+    @media screen and (max-width: 767px) {
+      font-size: 1rem;
+    }
   }
   .gatsby-highlight .plain-text {
     color: var(--gray-03);

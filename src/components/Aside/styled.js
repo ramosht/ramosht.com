@@ -22,8 +22,12 @@ export const AsideWrapper = styled.aside`
     box-sizing: border-box;
 
     @media screen and (min-width: 768px) {
-        width: 25rem;
+        width: 20rem;
         left: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 25rem;
     }
 
     &.shown {
@@ -54,7 +58,8 @@ export const ProfileWrapper = styled.div`
 
 export const Hamburger = styled(HamburgerSpin)`
     position: fixed;
-    bottom: 10rem;
+    top: 50%;
+    transform: translateY(-50%);
     right: 1rem;
     border-radius: 50%;
     height: 4.5rem;

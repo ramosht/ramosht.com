@@ -7,7 +7,7 @@ export const PostItemWrapper = styled(Link)`
   box-shadow: 0 0 .5rem rgba(0,0,0,0.15);
   border-radius: .25rem;
   text-decoration: none;
-  margin: 1rem;
+  margin-bottom: 1rem;
 
   * {
     transition: opacity .2s;
@@ -23,6 +23,9 @@ export const PostItemWrapper = styled(Link)`
 export const PostThumbnailWrapper = styled.div`
   width: 100%;
   height: 18rem;
+  @media screen and (max-width: 767px) {
+    height: 11rem;
+  }
 `;
 
 export const PostThumbnailImage = styled.img`
@@ -34,12 +37,21 @@ export const PostThumbnailImage = styled.img`
 
 export const PostContent = styled.div`
   padding: 2rem;
+
+  @media screen and (max-width: 575px) {
+    padding: 1rem;
+  }
 `;
 
 export const PostItemHeader = styled.div`
   display: flex;
   align-items: center;
   font-size: .9rem;
+
+  @media screen and (max-width: 575px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const PostDate = styled.time`
@@ -52,6 +64,11 @@ export const PostCategory = styled.span`
   padding: 0 .5rem;
   margin-left: 1rem;
   font-weight: 700;
+
+  @media screen and (max-width: 575px) {
+    margin: 0;
+    padding: 0;
+  }
 `;
 
 export const PostItemTitle = styled.h1`
