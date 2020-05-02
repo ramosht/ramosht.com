@@ -1,5 +1,4 @@
 import React from 'react'
-import * as S from './styled'
 import * as PS from '../../components/Post/styled'
 
 import SEO from '../../components/seo'

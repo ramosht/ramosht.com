@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Ramosht`,
+    title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front-end | UX`,
     description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 😁`,
     author: `@guilherme`,
-    siteUrl: `http://localhost:8000`
+    siteUrl: 'http://localhost:8000',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -58,17 +58,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Guilherme Ramos`,
+        short_name: `ramosht`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `##3D2C40`,
+        theme_color: `##3D2C40`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-photo.jpg`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none"
+      }
+    },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
