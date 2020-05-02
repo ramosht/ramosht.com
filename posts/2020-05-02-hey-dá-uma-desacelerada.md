@@ -4,7 +4,7 @@ description: Ansiedade é um problema sério, todo cuidado é pouco e cada coisa
   que você pode fazer para se ajudar já vai causar um impacto positivo gigante
   na sua saúde.
 category: Outros
-date: 2020-05-02T04:27:55.000Z
+date: 2020-04-28 08:00:55
 thumbnail: assets/img/hey-da-uma-desacelerada-thumb.jpeg
 ---
 Acredito que esse texto será um pouco curto, mas é sobre algo muito importante que aprendi com uma experiência recente (antes de ontem, aliás).
