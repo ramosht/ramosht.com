@@ -1,17 +1,13 @@
 import React from 'react';
+import * as S from './styled'
 
-import * as s from './styled'
-
-const Curso = () => {
+const Curso = ({ titulo, instituicao, data }) => {
     return (
-        <s.CursoWrapper>
-            <s.CursoData>Mai/2019</s.CursoData>
-            <s.CursoBody>
-                <s.CursoInstituicao>Alura Cursos Online</s.CursoInstituicao>
-                <s.CursoTitulo>Formação SEO</s.CursoTitulo>
-                <s.CursoCredencial>Credencial: aosidjas-asjd-jas-dj</s.CursoCredencial>
-            </s.CursoBody>
-        </s.CursoWrapper>
+        <S.CursoWrapper>
+            <S.CursoTitulo>{ titulo }</S.CursoTitulo>
+            <S.CursoInstituicao>{ instituicao }</S.CursoInstituicao>
+            <S.CursoData>Emissão em: { data }</S.CursoData>
+        </S.CursoWrapper>
     )
 }
 

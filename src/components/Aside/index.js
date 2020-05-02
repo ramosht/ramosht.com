@@ -29,7 +29,7 @@ const Aside = () => {
                 <ThemeToggle />
             </S.ThemeToggleWrapper>
 
-            <S.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#01d4b3" barColor="white" buttonWidth={30}  />
+            <S.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#261a26" barColor="white" buttonWidth={36}  />
         </S.AsideWrapper>   
     )
 }

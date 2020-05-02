@@ -9,7 +9,7 @@ export const AsideWrapper = styled.aside`
     top: 0;
     left: -110%;
     background-image: var(--sidebarBackground);
-    background-color: var(--themeColor);
+    background-color: var(--sidebarBackgroundColor);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -55,11 +55,17 @@ export const ProfileWrapper = styled.div`
 
 export const Hamburger = styled(HamburgerSpin)`
     position: fixed;
-    bottom: 1rem;
+    bottom: 5rem;
     right: 1rem;
     border-radius: 50%;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid #3d2c40;
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
 
     @media screen and (min-width: 768px) {
         display: none;

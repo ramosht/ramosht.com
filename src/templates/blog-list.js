@@ -86,8 +86,11 @@ const PostList = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  max-width: 60rem;
-  margin: 0 auto;
+
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-gap: 0rem;
+  }
 `;
 
 export default BlogList;
