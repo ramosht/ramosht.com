@@ -6,11 +6,11 @@ import Comments from '../components/Comments';
 
 import * as S from '../components/Post/styled';
 
-const BlogPost = ({ data, pathContext }) => {
+const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
 
-  const nextPost = pathContext.nextPost;
-  const previousPost = pathContext.previousPost;
+  const nextPost = pageContext.nextPost;
+  const previousPost = pageContext.previousPost;
 
   return (
     <Layout>

@@ -28,7 +28,7 @@ export const ThemeToggleBullet = styled.div`
   position: absolute;
   top: 50%;
   transition: left .2s;
-  left: ${ p => p.selected == 'light' ? '0.75rem' : 'calc(100% - 0.75rem)' };
+  left: ${ p => p.selected === 'light' ? '0.75rem' : 'calc(100% - 0.75rem)' };
   transform: translate(-50%, -50%);
   
 `;

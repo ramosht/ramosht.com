@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 import { HamburgerSpin } from 'react-animated-burgers'
 
 export const AsideWrapper = styled.aside`

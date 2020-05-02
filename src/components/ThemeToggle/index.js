@@ -16,9 +16,9 @@ const ThemeToggle = () => {
         window.__setPreferredTheme(isDarkMode ? 'light' : 'dark');
       }} 
     >
-      <S.ThemeToggleIcon>☀️</S.ThemeToggleIcon>
+      <S.ThemeToggleIcon><span role="img" aria-label="Tema Claro">☀️</span></S.ThemeToggleIcon>
       <S.ThemeToggleBullet selected={ theme } />
-      <S.ThemeToggleIcon>🌙</S.ThemeToggleIcon>
+      <S.ThemeToggleIcon><span role="img" aria-label="Tema Escuro">🌙</span></S.ThemeToggleIcon>
     </S.ThemeToggleWrapper>
   )
 }
