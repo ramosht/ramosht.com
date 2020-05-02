@@ -5,7 +5,7 @@ module.exports = {
     position: `Desenvolvedor Front-end | UX`,
     description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 😁`,
     author: `@guilherme`,
-    siteUrl: 'http://localhost:8000',
+    siteUrl: 'ramosht.com',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
