@@ -6,7 +6,7 @@ module.exports = {
     description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 😁`,
     author: `@guilherme`,
     // siteUrl: 'http://localhost:8000',
-    siteUrl: 'https://ramosht.netlify.com',
+    siteUrl: 'https://ramosht.netlify.app/',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://ramosht.netlify.com`,
+        siteUrl: `https://ramosht.netlify.app/`,
       },
     },
     `gatsby-plugin-sitemap`,
