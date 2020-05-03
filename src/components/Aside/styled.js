@@ -18,7 +18,7 @@ export const AsideWrapper = styled.aside`
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 3rem 1rem 4rem 1rem;
+    padding: 1rem;
     box-sizing: border-box;
 
     @media screen and (min-width: 768px) {
