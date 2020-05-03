@@ -20,7 +20,7 @@ export const PostTitle = styled.h1`
 export const PostDescription = styled.h2`
   font-size: 1.5rem;
   @media screen and (max-width: 1200px) {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
   line-height: 1.25;
   font-weight: 300;
