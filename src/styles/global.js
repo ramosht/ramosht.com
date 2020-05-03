@@ -20,7 +20,8 @@ const GlobalStyles = createGlobalStyle`
         --background: #fff;
         --postBackground: #fff;
 
-        --sidebarBackground: url('./assets/img/background-sidebar-light.jpg');
+        --sidebarBackground: url('/assets/img/background-sidebar-light.jpg');
+        --sidebarBackgroundColor: #818c83;
         --hamburgerColor: #818c83;
 
         background: var(--background);
@@ -36,7 +37,8 @@ const GlobalStyles = createGlobalStyle`
         --background: #3d2c40;
         --postBackground: #261a26;
 
-        --sidebarBackground: url('./assets/img/background-sidebar-dark.jpg');
+        --sidebarBackground: url('/assets/img/background-sidebar-dark.jpg');
+        --sidebarBackgroundColor: rgba(61, 44, 64, .5);
         --hamburgerColor: #261a26;
 
         background: var(--background);

@@ -8,7 +8,7 @@ export const AsideWrapper = styled.aside`
     top: 0;
     left: -110%;
     background-image: var(--sidebarBackground);
-    background-color: var(--themeColor);
+    background-color: var(--sidebarBackgroundColor);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
