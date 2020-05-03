@@ -6,7 +6,7 @@ export default function PostItem({ slug, category, date, title, description, thu
   return (
     <S.PostItemWrapper to={ slug }>
         <S.PostThumbnailWrapper>
-          <S.PostThumbnailImage className="postThumbnailImage" src={`${siteUrl}/${thumbnail}`} />
+          <S.PostThumbnailImage className="postThumbnailImage" src={`${siteUrl}/${thumbnail}`} alt={title}/>
         </S.PostThumbnailWrapper>
         <S.PostContent>
           <S.PostItemHeader>

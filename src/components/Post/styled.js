@@ -3,27 +3,29 @@ import styled from "styled-components"
 export const PostHeader = styled.header`
   padding: 1rem 0 0;
   color: var(--text);
+  margin: auto;	
+  max-width: 70rem;
 `
 
 export const PostTitle = styled.h1`
   font-size: 3rem;
   line-height: 1.15;
+  font-weight: 700;
+  margin: 1rem auto;
 
   @media screen and (max-width: 1200px) {
     font-size: 2rem;
   }
-
-  font-weight: 700;
-  margin: 1rem auto;
 `
 
 export const PostDescription = styled.h2`
   font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 300;
+
   @media screen and (max-width: 1200px) {
     font-size: 1.35rem;
   }
-  line-height: 1.25;
-  font-weight: 300;
 `
 
 export const PostDate = styled.p`
@@ -57,7 +59,6 @@ export const MainContent = styled.section`
     font-weight: 500;
     line-height: 1.7;
     letter-spacing: 0.069rem;
-
     @media screen and (max-width: 767px) {
       font-size: 1rem;
     }
@@ -65,6 +66,7 @@ export const MainContent = styled.section`
   .gatsby-highlight .plain-text {
     color: var(--gray-03);
   }
+  
   p {
     margin: 0 auto 1.6rem;
   }

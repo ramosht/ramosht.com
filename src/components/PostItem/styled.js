@@ -55,7 +55,7 @@ export const PostItemHeader = styled.div`
 `;
 
 export const PostDate = styled.time`
-  color: #aaa;
+  color: var(--text);
 `;
 
 export const PostCategory = styled.span`
