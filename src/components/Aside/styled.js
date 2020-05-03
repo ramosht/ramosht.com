@@ -20,6 +20,7 @@ export const AsideWrapper = styled.aside`
     flex-direction: column;
     padding: 1rem;
     box-sizing: border-box;
+    z-index: 4;
 
     @media screen and (min-width: 768px) {
         width: 20rem;
@@ -65,6 +66,7 @@ export const Hamburger = styled(HamburgerSpin)`
     height: 4.5rem;
     width: 4.5rem;
     border: 2px solid #3d2c40;
+    z-index: 5;
 
     &:active,
     &:focus {

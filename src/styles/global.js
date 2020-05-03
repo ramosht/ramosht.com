@@ -64,6 +64,11 @@ const GlobalStyles = createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
         font-family: 'Raleway', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        overflow-x: hidden;
     }
 
     /* HTML5 display-role reset for older browsers */
