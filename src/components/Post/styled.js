@@ -199,4 +199,20 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+  .aboutContato {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      li {
+        margin: 0 2rem;
+        
+        a {
+          border: none;
+        }
+      }
+      
+    }
+  }
 `

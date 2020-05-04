@@ -1,10 +1,12 @@
 import React from 'react'
+import styled from 'styled-components'
 import * as PS from '../../components/Post/styled'
 
 import SEO from '../../components/seo'
 import Layout from '../../components/Layout'
 import Curso from '../../components/Curso'
 import ProfessionalExperience from '../../components/ProfessionalExperience'
+import SocialLinks from '../../components/SocialLinks'
 
 const Sobre = () => {
     return (
@@ -20,28 +22,9 @@ const Sobre = () => {
                 </PS.PostHeader>
                 <PS.MainContent>
                     <div>
-                        <p>Sou uma pessoa bastante inquieta, que está, o tempo todo, buscando entender como a tecnologia pode ser usada para melhorar ainda mais a vida das pessoa Afinal de contas, tecnologia é sobre isso, não é? Pessoa</p>
-                        <ul className="informacoesPessoaisSobre">
-                            <li>
-                                <span className="t-semi-bold">Idade</span>: 22 anos
-                            </li>
-
-                            <li>
-                                <span className="t-semi-bold">Residência</span>: Sorocaba/SP
-                            </li>
-
-                            <li>
-                                <span className="t-semi-bold">Língua Estrangeira</span>: Inglês Avançado
-                            </li>
-
-                            <li>
-                                <span className="t-semi-bold">Hobbies</span>: Fotografia, música e esportes
-                            </li>
-
-                            <li>
-                                <span className="t-semi-bold">Frase</span>: "O melhor momento para plantar uma árvore foi há 20 ano O segundo melhor momento é agora."
-                            </li>
-                        </ul>
+                        <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end a quase dois anos</p>
+                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, infra, UX/UI, design, copywriting, enfim. Tudo o que aparecia para resolver dentro do site, era eu quem abraçava. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato. Mas não demorou muito para me apaixonar por front-end e decidir focar nessa área.</p>
+                        <p>Sou uma pessoa bastante inquieta, que está, o tempo todo, buscando aprender tecnologias novas e entender como elas podem se conversar e serem usadas para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
                     </div>
 
                     <div>
@@ -89,6 +72,43 @@ const Sobre = () => {
                             descricao="Análise e prevenção de fraudes em passagens aéreas. Também trabalhei no setor de TI,"
                             periodo="fev de 2016 - jul de 2017 (1 ano e 6 meses)"
                         />
+                    </div>
+
+                    <div>
+                        <h2>Habilidades</h2>
+                        <ul>
+                            <li>HTML5/CSS3</li>
+                            <li>SASS</li>
+                            <li>Bootstrap</li>
+                            <li>Web Design Responsivo</li>
+                            <li>UX/UI</li>
+                            <li>JavaScript (ES6)</li>
+                            <li>jQuery</li>
+                            <li>Vue.js (Vuex)</li>
+                            <li>React.js (Redux)</li>
+                            <li>Gatsby.js</li>
+                            <li>Node.js</li>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Git (Github e Bitbucket)</li>
+                            <li>MySQL</li>
+                            <li>O que eu não sei, aprendo rápido 🙃</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Conhecimentos</h2>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Google Analytics</li>
+                            <li>SEO</li>
+                        </ul>
+                    </div>
+
+                    <div class="aboutContato">
+                        <h2>Contato</h2>
+                        <SocialLinks iconSize="42px" iconColor="var(--text)" />
                     </div>
                 </PS.MainContent>
             </main>

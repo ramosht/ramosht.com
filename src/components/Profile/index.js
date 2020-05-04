@@ -23,7 +23,7 @@ export default () => {
             <Avatar />
             <s.ProfileName>{ name }</s.ProfileName>
             <s.ProfilePosition>{ description }</s.ProfilePosition>
-            <SocialLinks />
+            <SocialLinks iconSize="24px" iconColor="#fff" />
         </s.ProfileWrapper>
     )
 }
