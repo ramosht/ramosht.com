@@ -22,9 +22,9 @@ const Sobre = () => {
                 </PS.PostHeader>
                 <PS.MainContent>
                     <div>
-                        <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end a quase dois anos</p>
-                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, infra, UX/UI, design, copywriting, enfim. Tudo o que aparecia para resolver dentro do site, era eu quem abraçava. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato. Mas não demorou muito para me apaixonar por front-end e decidir focar nessa área.</p>
-                        <p>Sou uma pessoa bastante inquieta, que está, o tempo todo, buscando aprender tecnologias novas e entender como elas podem se conversar e serem usadas para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
+                        <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end há quase dois anos</p>
+                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, infra, UX/UI, design, copywriting, enfim, tudo o que aparecia para resolver dentro do site, era eu quem abraçava. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato. Mas não demorou muito para me apaixonar por front-end e decidir focar nessa área.</p>
+                        <p>Sou uma pessoa bastante inquieta, que está o tempo todo buscando aprender tecnologias novas e entender como elas podem se conversar e serem usadas para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
                     </div>
 
                     <div>
