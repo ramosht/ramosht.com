@@ -16,7 +16,9 @@ export const SocialLinksList = styled.ul`
     list-style: none;
 `;
 
-export const SocialLinksItem = styled.li``;
+export const SocialLinksItem = styled.li`
+    margin: 0 3.5%;
+`;
 
 export const SocialLinksLink = styled.a`
     text-decoration: none;
@@ -24,8 +26,8 @@ export const SocialLinksLink = styled.a`
     margin: 0 .5rem;
 
     svg {
-        fill: var(--white);
-        width: 24px;
-        height: 24px;
+        fill: ${ props => props.iconColor };
+        width: ${ props => props.iconSize };
+        height: ${ props => props.iconSize };
     }
 `;

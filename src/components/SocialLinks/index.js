@@ -3,7 +3,7 @@ import Icons from './icons';
 import links from './content';
 import * as S from './styled';
 
-const SocialLinks = () => (
+const SocialLinks = (props) => (
     <S.SocialLinksWrapper>
         <S.SocialLinksList>
             {links.map((link, i) => {
@@ -16,6 +16,8 @@ const SocialLinks = () => (
                             title={link.label} 
                             target="blank" 
                             rel="noopener noreferrer"
+                            iconSize={props.iconSize}
+                            iconColor={props.iconColor}
                         >
                             <Icon />
                         </S.SocialLinksLink>
