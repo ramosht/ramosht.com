@@ -19,7 +19,7 @@ const BlogList = props => {
     <Layout>
         <SEO 
           title="Início" 
-          description="Sejam bem-vindos ao meu blog! Sou desenvolvedor JS, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 😁"  />
+          description="Sou desenvolvedor JS, fotógrafo, músico e cristão. Postagens semanais sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️"  />
         <PostList>
             {
                 postList.map((
