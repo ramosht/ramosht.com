@@ -7,11 +7,6 @@ export const AsideWrapper = styled.aside`
     position: fixed;
     top: 0;
     left: -110%;
-    background-image: var(--sidebarBackground);
-    background-color: var(--sidebarBackgroundColor);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
     transition: left .5s ease-in-out;
 
     display: flex;
@@ -34,6 +29,22 @@ export const AsideWrapper = styled.aside`
     &.shown {
         left: 0;
     }
+`;
+
+export const AsideBackgroundDark = styled.div`
+    background-image: url('/assets/img/background-sidebar-dark.jpg');
+    background-color: rgba(61, 44, 64, .5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+`;
+
+export const AsideBackgroundLight = styled.div`
+    background-image: url('/assets/img/background-sidebar-light.jpg');
+    background-color: #818c83;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
 `;
 
 export const MenuWrapper = styled.div`

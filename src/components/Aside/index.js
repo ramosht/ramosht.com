@@ -17,6 +17,9 @@ const Aside = () => {
     
     return (
         <S.AsideWrapper className={ asideState ? 'shown' : '' }>
+            <S.AsideBackgroundDark className="sidebarDark" />
+            <S.AsideBackgroundLight className="sidebarLight" />
+
             <S.MenuWrapper>
                 <MenuLinks />
             </S.MenuWrapper>

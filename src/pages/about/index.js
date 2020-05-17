@@ -49,10 +49,15 @@ const Sobre = () => {
                     <div>
                         <h2>Experiências profissionais</h2>
                         <ProfessionalExperience 
+                            atuacao="Desenvolvedor III"
+                            instituicao="Cadmus Soluções em TI"
+                            periodo="mai de 2020 - atualmente"
+                        />
+                        <ProfessionalExperience 
                             atuacao="Desenvolvedor de front-end"
                             instituicao="DOK Despachante"
                             descricao="Front-end das diversas áreas que compõem o ecossistema da empresa: sistema de checkout, sistema interno, landing pages, etc."
-                            periodo="jul de 2019 - atualmente (11 meses)"
+                            periodo="jul de 2019 - mai de 2020 (11 meses)"
                         />
                         <ProfessionalExperience 
                             atuacao="Professor"

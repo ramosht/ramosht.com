@@ -20,8 +20,6 @@ const GlobalStyles = createGlobalStyle`
         --background: #fff;
         --postBackground: #fff;
 
-        --sidebarBackground: url('/assets/img/background-sidebar-light.jpg');
-        --sidebarBackgroundColor: #818c83;
         --hamburgerColor: #818c83;
 
         background: var(--background);
@@ -37,8 +35,6 @@ const GlobalStyles = createGlobalStyle`
         --background: #3d2c40;
         --postBackground: #261a26;
 
-        --sidebarBackground: url('/assets/img/background-sidebar-dark.jpg');
-        --sidebarBackgroundColor: rgba(61, 44, 64, .5);
         --hamburgerColor: #261a26;
 
         background: var(--background);
@@ -109,6 +105,37 @@ const GlobalStyles = createGlobalStyle`
 
     .t-semi-bold {
         font-weight: 600;
+    }
+
+    .sidebarDark, .sidebarLight {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition-property: opacity, background-color;
+        transition-duration: .5s;
+        z-index: -1;
+    }
+
+    body.light {
+        .sidebarLight {
+            opacity: 1;
+        }
+
+        .sidebarDark {
+            opacity: 0;
+        }
+    }
+
+    body.dark {
+        .sidebarLight {
+            opacity: 0;
+        }
+
+        .sidebarDark {
+            opacity: 1;
+        }
     }
 `;
 
