@@ -1,23 +1,40 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-import * as S from './styled';
+import { StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-const PostItemThumbnail = ({ thumbnail }) => {
-    // const { thumbnailImage } = useStaticQuery(
-    //     graphql`
-    //         query {
-    //             thumbnailImage: file(relativePath: { eq: ${thumbnail} }) {
-    //                 childImageSharp {
-    //                     fluid(maxWidth: 320) {
-    //                         ...GatsbyImageSharpFluid
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     `
-    // );
+// Note: You can change "images" to whatever you'd like.
 
-    // return <S.Thumbnail fluid={ thumbnailImage.childImageSharp.fluid } />
-}
+const Image = props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        images: allFile {
+          edges {
+            node {
+              relativePath
+              name
+              childImageSharp {
+                fluid(maxWidth: 520) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      const image = data.images.edges.find(n => {
+        return n.node.relativePath.includes(props.filename);
+      });
+      if (!image) {
+        return null;
+      }
 
-export default PostItemThumbnail;
+      //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
+      return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+    }}
+  />
+);
+
+export default Image;

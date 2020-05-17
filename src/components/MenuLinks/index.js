@@ -7,7 +7,7 @@ export default function MenuLinks() {
     <S.MenuLinksWrapper>
       <S.MenuLinksList>
         {links.map((link, i) => (
-          <S.MenuLinksItem>
+          <S.MenuLinksItem key={link.label}>
             <S.MenuLinksLink activeClassName="active" to={link.url}>{link.label}</S.MenuLinksLink>
           </S.MenuLinksItem>
         ))}

@@ -4,11 +4,14 @@ import PropTypes from 'prop-types'
 import PostItemThumbnail from '../PostItemThumbnail';
 
 export default function PostItem({ slug, category, date, title, description, thumbnail, siteUrl }) {
+  const sanitizedThumbnailUrl = thumbnail.split('').slice(11,).join('');
+  console.log(sanitizedThumbnailUrl);
+
   return (
     <S.PostItemWrapper to={ slug }>
         <S.PostThumbnailWrapper>
-          <S.PostThumbnailImage className="postThumbnailImage" src={`${siteUrl}/${thumbnail}`} alt={title}/>
-          {/* <PostItemThumbnail thumbnailUrl="hey-da-uma-desacelerada-thumb.jpeg"/> */}
+          {/* <S.PostThumbnailImage className="postThumbnailImage" src={`${siteUrl}/${thumbnail}`} alt={title}/> */}
+          <PostItemThumbnail alt="Gatsby in Space" filename={sanitizedThumbnailUrl}/>
         </S.PostThumbnailWrapper>
         <S.PostContent>
           <S.PostItemHeader>

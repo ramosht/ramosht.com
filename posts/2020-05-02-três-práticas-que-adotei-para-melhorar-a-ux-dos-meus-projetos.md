@@ -5,13 +5,13 @@ description: Após algum tempo trabalhando sozinho e passando por muitos
   evitariam a maior parte deles.
 category: Outros
 date: 2019-07-14 08:00:22
-thumbnail: assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-00.jpeg
+thumbnail: assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-00.jpeg
 ---
 Fala pessoal, tranquilo?
 
 Eu, assim como muitos de vocês, já passei pela experiência de trabalhar sozinho em alguns projetos. Nesses casos, é preciso fazer um pouco de cada coisa: um pouco do design, um pouco do front-end, um pouco do back-end, um pouco do marketing, etc. De todas essas áreas, a que eu mais tive dificuldade foi a de UX (experiência de usuário). Porém, também foi a que eu mais evolui.
 
-![Desenvolvedor, dentro do que parece ser seu quarto, tomando algo de uma xícara, olhando atentamente para a tela do notebook.](assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-01.jpeg "Três práticas que adotei para melhorar a UX dos meus projetos 01")
+![Desenvolvedor, dentro do que parece ser seu quarto, tomando algo de uma xícara, olhando atentamente para a tela do notebook.](assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-01.jpeg "Três práticas que adotei para melhorar a UX dos meus projetos 01")
 
 Depois de passar alguns perrengues e ter que reservar um período focado só em analisar e corrigir alguns bugs de usabilidade dos meus primeiros trabalhos, comecei a perceber que, se eu tivesse tomado alguns cuidados durante o desenvolvimento, evitaria boa parte desses problemas.
 
@@ -23,13 +23,13 @@ Vamos lá?
 
 # Sempre escreva um código semântico
 
-![Tela de um computador exibindo um editor de código com um trecho de código HTML.](assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-02.jpeg "Sempre escreva um código semântico")
+![Tela de um computador exibindo um editor de código com um trecho de código HTML.](assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-02.jpeg "Sempre escreva um código semântico")
 
 Se você é novo no mundo do HTML, essa é uma das coisas mais importantes que vai aprender. Antigamente, as tags HTML tinham somente um objetivo: estruturar um site. Hoje em dia, com o HTML5, o código tem um valor **tão semântico quando visual**. E, bem aplicado, isso traz diversos benefícios a inúmeros usuários.
 
 Por exemplo: qual a diferença entre usar uma tag <h1> (título) ou uma tag <p> (parágrafo) estilizada para ficar grandona? Visualmente, nenhuma. Semanticamente,**um é título e o outro é parágrafo**. Para as tecnologias assistivas (que auxiliam pessoas portadoras de alguma deficiência), o que vale é o valor semântico. Elas querem saber o que o código realmente é, não o que ele parece ser.
 
-![Comparação entre a estrutura de um site não-semântico (esquerda) e outro semântico (direita). O não-semântico é apenas um amontoado de divs, sem um valor específico para cada bloco. Já na estrutura semântica, cada bloco tem um valor semântico específico.](assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-03.png "Hoje em dia, com o HTML5, o código tem um valor tão semântico quando visual.")
+![Comparação entre a estrutura de um site não-semântico (esquerda) e outro semântico (direita). O não-semântico é apenas um amontoado de divs, sem um valor específico para cada bloco. Já na estrutura semântica, cada bloco tem um valor semântico específico.](assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-03.png "Hoje em dia, com o HTML5, o código tem um valor tão semântico quando visual.")
 
 *Outro exemplo de código semântico: tags como header, article, figure e footer, apesar de (visualmente) não terem diferença de uma tag div, possuem um valor muito mais semântico — são tags para cabeçalho, artigo, figura e rodapé (respectivamente). Fonte: Interneting Is Hard — <https://internetingishard.com/html-and-css/semantic-html/>*
 
@@ -37,7 +37,7 @@ Quando falamos de experiência de usuário, falamos também de acessibilidade. P
 
 # Coloque-se no lugar do usuário
 
-![Homem concentrado, debruçado sobre uma prancheta e tomando notas sobre experiência do usuário. Na mesa, há mais papéis com outras anotações.](assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-04.jpeg "Coloque-se no lugar do usuário")
+![Homem concentrado, debruçado sobre uma prancheta e tomando notas sobre experiência do usuário. Na mesa, há mais papéis com outras anotações.](assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-04.jpeg "Coloque-se no lugar do usuário")
 
 Esteja sempre se perguntando: como vai ser a interação do usuário com essa página? Quando criamos um site, é natural que o deixemos do jeito que nós achamos melhor. Porém, nem sempre é o melhor para quem o acessará.
 
@@ -47,7 +47,7 @@ Portanto, sempre vale nos colocarmos no lugar do usuário e pensar: qual é a ex
 
 # Teste seu projeto em diferentes telas
 
-![Vários dispositivos exibindo o mesmo site: um notebook, quatro smarthphones e um tablet.](assets/img/três-práticas-que-adotei-para-melhorar-ux-dos-meus-projetos-05.jpeg "Teste seu projeto em diferentes telas")
+![Vários dispositivos exibindo o mesmo site: um notebook, quatro smarthphones e um tablet.](assets/img/tres-praticas-que-adotei-para-melhorar-ux-dos-meus-projetos-05.jpeg "Teste seu projeto em diferentes telas")
 
 Essa dica é quase uma extensão da anterior.
 

@@ -23,6 +23,7 @@ export const PostItemWrapper = styled(Link)`
 export const PostThumbnailWrapper = styled.div`
   width: 100%;
   height: 18rem;
+  overflow: hidden;
   @media screen and (max-width: 767px) {
     height: 11rem;
   }

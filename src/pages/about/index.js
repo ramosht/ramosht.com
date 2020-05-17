@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import * as PS from '../../components/Post/styled'
 
 import SEO from '../../components/seo'
@@ -23,8 +22,9 @@ const Sobre = () => {
                 <PS.MainContent>
                     <div>
                         <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end há quase dois anos</p>
-                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, infra, UX/UI, design, copywriting, enfim, tudo o que aparecia para resolver dentro do site, era eu quem abraçava. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato. Mas não demorou muito para me apaixonar por front-end e decidir focar nessa área.</p>
-                        <p>Sou uma pessoa bastante inquieta, que está o tempo todo buscando aprender tecnologias novas e entender como elas podem se conversar e serem usadas para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
+                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front, back, infra, UX/UI, design, copywriting, enfim, todo tipo de B.O. que aparecia, era eu quem tinha de resolver. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato.</p>
+                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies são: fotografia, música, leitura e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
+                        <p>Estou o tempo todo aprendendo tecnologias e conceitos novos e tentando entender como posso usá-los para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
                     </div>
 
                     <div>
@@ -92,7 +92,7 @@ const Sobre = () => {
                             <li>Laravel</li>
                             <li>Git (Github e Bitbucket)</li>
                             <li>MySQL</li>
-                            <li>O que eu não sei, aprendo rápido 🙃</li>
+                            <li>O que eu não sei, aprendo rápido <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
                         </ul>
                     </div>
 
@@ -106,7 +106,7 @@ const Sobre = () => {
                         </ul>
                     </div>
 
-                    <div class="aboutContato">
+                    <div className="aboutContato">
                         <h2>Contato</h2>
                         <SocialLinks iconSize="42px" iconColor="var(--text)" />
                     </div>

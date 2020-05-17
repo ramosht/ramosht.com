@@ -27,3 +27,5 @@ export const SocialLinksLink = styled.a`
         height: ${ props => props.iconSize };
     }
 `;
+
+export const IconContainer = styled.span``;

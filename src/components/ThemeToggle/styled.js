@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ThemeToggleWrapper = styled.button`
   width: 4.5rem;
   height: 2rem;
-  background: #261a26;
+  background: transparent;
   border-radius: 1.65rem;
   display: flex;
   align-items: center;
