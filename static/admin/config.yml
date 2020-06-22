@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ramosht/ramosht
   branch: master
-  site_domain: http://ramosht.netlify.com/
+  site_domain: https://ramosht.com/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"

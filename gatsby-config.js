@@ -3,10 +3,9 @@ module.exports = {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front-end | UX`,
-    description: `Desenvolvedor, fotógrafo, músico e cristão. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
+    description: `Desenvolvedor, fotógrafo e músico nas horas vagas. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `pt-br`,
-    // siteUrl: 'http://localhost:8000',
     siteUrl: 'https://ramosht.com/',
   },
   plugins: [

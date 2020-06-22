@@ -14,10 +14,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
 
     // Creates new query'able field with name of 'slug'
+    let sanitizedSlug = slug.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
     createNodeField({
       node,
       name: "slug",
-      value: `/${slug.slice(12)}`,
+      value: `/${sanitizedSlug.slice(12)}`,
     })
   }
 }
