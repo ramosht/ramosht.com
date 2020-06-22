@@ -13,13 +13,13 @@ export const SocialLinksList = styled.ul`
 `;
 
 export const SocialLinksItem = styled.li`
-    margin: 0 3.5%;
+    margin: 0 2.5%;
 `;
 
 export const SocialLinksLink = styled.a`
     text-decoration: none;
     transition: color .5s;
-    margin: 0 .5rem;
+    // margin: 0 .5rem;
 
     svg {
         fill: ${ props => props.iconColor };

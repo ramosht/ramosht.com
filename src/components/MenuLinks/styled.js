@@ -23,7 +23,7 @@ export const MenuLinksLink = styled(Link)`
   color: var(--white);
   text-decoration: none;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
   opacity: 50%;
   
   &.active {

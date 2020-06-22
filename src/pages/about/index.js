@@ -112,7 +112,6 @@ const Sobre = () => {
                     </div>
 
                     <div className="aboutContato">
-                        <h2>Contato</h2>
                         <SocialLinks iconSize="42px" iconColor="var(--text)" />
                     </div>
                 </PS.MainContent>

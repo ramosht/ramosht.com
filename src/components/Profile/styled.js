@@ -19,7 +19,7 @@ export const ProfileWrapper = styled.div`
         font-size: 0.95rem;
         line-height: 1.25;
         margin: 1.5rem 0;
-        font-weight: 200;
+        // font-weight: 200;
         color: var(--white);
         letter-spacing: 1px;
         text-align: center;
