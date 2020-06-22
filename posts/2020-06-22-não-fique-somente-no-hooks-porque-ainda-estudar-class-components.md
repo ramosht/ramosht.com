@@ -4,7 +4,7 @@ description: O hooks do React é legal? Sim, muito! Mas existe uma razão muito
   importante para você ainda aprender sobre class components, mesmo que esteja
   um pouco esquecido.
 category: Outros
-date: 2020-06-22 11:15:25
+date: 2020-06-22T11:15:25.000Z
 thumbnail: assets/img/codigo-react-browser-router.jpg
 ---
 Recentemente eu fui contratado em uma nova empresa. Nova empresa significa novos desafios e novos aprendizados. E teve um desafio bem específico que, apesar de ser em uma tecnologia bem familiar para mim, ainda me pegou de surpresa.
@@ -26,6 +26,8 @@ Foi aí que eu aprendi a grande lição que me deu a ideia de escrever esse text
 Conversando com um desenvolvedor React aqui da empresa, muito mais experiente que eu e que me ajudou a entender algumas peculiaridades do código, ele me deu o seguinte conselho: não foque só em aprender a versão recente do React. Hooks é legal? Sim, muito! Mas e os códigos mais antigos, que foram construídos com componentes baseados em classe, como que a gente pode fazer a manutenção deles sem conhecer a mecânica, funcionamento, peculiaridades, etc?
 
 ## O que eu tirei disso tudo?
+
+![Cinco desenvolvedores trabalhando juntos em uma mesa.](assets/img/group-of-devs.jpeg "O que eu tirei disso tudo?")
 
 É muito importante, quando você está aprendendo e se aprofundando, se concentrar na versão mais recente da tecnologia. É importantíssimo porque uma nova versão (ou até uma nova tech) sempre atualiza para melhor (pelo menos é a ideia), seja em termos de programação, segurança, ciclo de vida de projeto, etc. Mas, quando você sai do raso e começa a se aprofundar, é importante aprender versões mais antigas (mesmo que seja a nível de entendimento, somente), principalmente numa tecnologia que evolui o tempo todo (que é o que acontece com esses frameworks JavaScript, tipo React, Vue, Angular, etc). Assim, você não se prepara apenas para criar, mas se prepara também para trabalhar em equipe, fazendo manutenção de códigos que já existem, e isso vai abrir MUITAS portas.
 
