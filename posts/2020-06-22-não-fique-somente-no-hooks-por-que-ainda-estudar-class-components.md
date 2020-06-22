@@ -1,5 +1,5 @@
 ---
-title: "Não fique somente no Hooks: Porque ainda estudar class components"
+title: "Não fique somente no Hooks: Por que ainda estudar class components"
 description: O hooks do React é legal? Sim, muito! Mas existe uma razão muito
   importante para você ainda aprender sobre class components, mesmo que esteja
   um pouco esquecido.
