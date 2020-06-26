@@ -3,7 +3,7 @@ module.exports = {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front-end | UX`,
-    description: `Desenvolvedor, fotógrafo e músico nas horas vagas. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
+    description: `Cristão, desenvolvedor, fotógrafo e músico nas horas vagas. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `pt-br`,
     siteUrl: 'https://ramosht.com/',
@@ -84,7 +84,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://ramosht.netlify.app/`,
+        siteUrl: `https://ramosht.com/`,
       },
     },
     `gatsby-plugin-sitemap`,

@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: '@ramosht_',
         },
         {
           name: `twitter:title`,
