@@ -1,8 +1,7 @@
 ---
-title: "Não fique somente no Hooks: Por que ainda estudar class components"
-description: O hooks do React é legal? Sim, muito! Mas existe uma razão muito
-  importante para você ainda aprender sobre class components, mesmo que esteja
-  um pouco esquecido.
+title: Por que ainda estudar class components
+description: Saiba que existe uma razão muito importante para ainda aprender
+  sobre class components, mesmo que esteja um pouco esquecido.
 category: React
 date: 2020-06-22T11:15:25.000Z
 thumbnail: assets/img/codigo-react-browser-router.jpg
