@@ -2,12 +2,12 @@
 title: Como fazer cartões giratórios usando somente HTML e CSS
 description: Aprenda a criar o efeito de cartões giratórios, usando apenas HTML e CSS.
 category: Front-end
-date: 2019-06-11 09:09:30
+date: 2019-06-11T09:09:30.000Z
 thumbnail: assets/img/como-fazer-cartões-giratórios-usando-somente-html-e-css.jpeg
 ---
 Fala galera, tudo bem?
 
-Recentemente eu fiz o site de uma clínica odontológica que pediu um recurso bem legal: um cartão giratório para cada tratamento. A face da frente (inicialmente voltada para cima) exibe o nome do tratamento e, com o mouse sobre um cartão, ele gira e exibe uma descrição daquele tratamento. [Veja como ficou o resultado final.](https://www.doutordental.net/#home-areasdeatuacao)
+Recentemente eu fiz o site de uma clínica odontológica que pediu um recurso bem legal: um cartão giratório para cada tratamento. A face da frente (inicialmente voltada para cima) exibe o nome do tratamento e, com o mouse sobre um cartão, ele gira e exibe uma descrição daquele tratamento. [Veja como ficou o resultado final.](https://doutordental.com.br/#home-areasdeatuacao)
 
 A solução foi simples e usei somente HTML e CSS. Porém, com um pouco de criatividade, dá pra fazer muita coisa legal só com isso. Bora aprender?
 
@@ -116,7 +116,7 @@ Você deve estar se perguntando sobre o **transform: rotateY(180deg)** no **.car
 
 Por fim, com tudo isso configurado, já devemos ter nosso resultado final.
 
-[https://codepen.io/ramosht/pen/agbbrN](https://codepen.io/ramosht/full/agbbrN)
+<https://codepen.io/ramosht/full/agbbrN>
 
 # Personalizando
 
@@ -124,7 +124,7 @@ Como eu disse, o legal desse elemento é que, com um pouco de criatividade, dá 
 
 Outro exemplo, onde eu uso um pouco mais de código, segue abaixo:
 
-[https://codepen.io/ramosht/pen/WqNJwP](https://codepen.io/ramosht/full/WqNJwP)
+<https://codepen.io/ramosht/full/WqNJwP>
 
 - - -
 
