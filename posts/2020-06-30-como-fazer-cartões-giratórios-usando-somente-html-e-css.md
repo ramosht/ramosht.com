@@ -2,7 +2,7 @@
 title: Como fazer cartões giratórios usando somente HTML e CSS
 description: Aprenda a criar o efeito de cartões giratórios, usando apenas HTML e CSS.
 category: Front-end
-date: 2019-06-11 09:09:30
+date: 2019-06-11T09:09:30.000Z
 thumbnail: assets/img/como-fazer-cartões-giratórios-usando-somente-html-e-css.jpeg
 ---
 Fala galera, tudo bem?
@@ -116,7 +116,7 @@ Você deve estar se perguntando sobre o **transform: rotateY(180deg)** no **.car
 
 Por fim, com tudo isso configurado, já devemos ter nosso resultado final.
 
-[https://codepen.io/ramosht/pen/agbbrN](https://codepen.io/ramosht/full/agbbrN)
+<https://codepen.io/ramosht/full/agbbrN>
 
 # Personalizando
 
@@ -124,7 +124,7 @@ Como eu disse, o legal desse elemento é que, com um pouco de criatividade, dá 
 
 Outro exemplo, onde eu uso um pouco mais de código, segue abaixo:
 
-[https://codepen.io/ramosht/pen/WqNJwP](https://codepen.io/ramosht/full/WqNJwP)
+<https://codepen.io/ramosht/full/WqNJwP>
 
 - - -
 
