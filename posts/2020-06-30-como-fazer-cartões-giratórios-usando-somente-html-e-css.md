@@ -7,7 +7,7 @@ thumbnail: assets/img/como-fazer-cartões-giratórios-usando-somente-html-e-css.
 ---
 Fala galera, tudo bem?
 
-Recentemente eu fiz o site de uma clínica odontológica que pediu um recurso bem legal: um cartão giratório para cada tratamento. A face da frente (inicialmente voltada para cima) exibe o nome do tratamento e, com o mouse sobre um cartão, ele gira e exibe uma descrição daquele tratamento. [Veja como ficou o resultado final.](https://www.doutordental.net/#home-areasdeatuacao)
+Recentemente eu fiz o site de uma clínica odontológica que pediu um recurso bem legal: um cartão giratório para cada tratamento. A face da frente (inicialmente voltada para cima) exibe o nome do tratamento e, com o mouse sobre um cartão, ele gira e exibe uma descrição daquele tratamento. [Veja como ficou o resultado final.](https://doutordental.com.br/#home-areasdeatuacao)
 
 A solução foi simples e usei somente HTML e CSS. Porém, com um pouco de criatividade, dá pra fazer muita coisa legal só com isso. Bora aprender?
 
