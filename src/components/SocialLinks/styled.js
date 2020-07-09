@@ -23,8 +23,13 @@ export const SocialLinksLink = styled.a`
 
     svg {
         fill: ${ props => props.iconColor };
-        width: ${ props => props.iconSize };
-        height: ${ props => props.iconSize };
+        width: 1.5rem;
+        height: 1.5rem;
+
+        @media screen and (min-width: 576px) {
+            width: ${ props => props.iconSize };
+            height: ${ props => props.iconSize };
+        }
     }
 `;
 

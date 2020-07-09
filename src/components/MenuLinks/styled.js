@@ -11,7 +11,6 @@ export const MenuLinksList = styled.ul`
 `;
 
 export const MenuLinksItem = styled.li`
-  text-transform: uppercase;
   margin: 1.25rem 0;
 
   .active {
@@ -21,9 +20,9 @@ export const MenuLinksItem = styled.li`
 
 export const MenuLinksLink = styled(Link)`
   color: var(--white);
+  font-weight: 500;
   text-decoration: none;
   font-size: 1.25rem;
-  font-weight: 600;
   opacity: 50%;
   
   &.active {

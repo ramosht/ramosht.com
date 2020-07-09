@@ -14,6 +14,14 @@ const ThemeToggle = () => {
     <S.ThemeToggleWrapper 
       onClick={() => {
         window.__setPreferredTheme(isDarkMode ? 'light' : 'dark');
+
+        if (window.DISQUS !== undefined) {
+          window.setTimeout(() => {
+            window.DISQUS.reset({
+              reload: true
+            })
+          }, 300)
+        }
       }} 
     >
       <S.ThemeToggleIcon className="light"><span role="img" aria-label="Tema Claro">☀️</span></S.ThemeToggleIcon>

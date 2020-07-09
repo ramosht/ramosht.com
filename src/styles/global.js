@@ -8,6 +8,11 @@ const GlobalStyles = createGlobalStyle`
         --gray-02: #aaa;
         --gray-03: #f4f4f4;
         --white: #fff;
+
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+
     }
 
     body.light {
@@ -41,7 +46,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    h1, h2, h3, h4, h5, h6, p, blockquote,
     a, abbr, acronym, address, big, cite, code,
     del, dfn, em, img, ins, kbd, q, s, samp,
     small, strike, strong, sub, sup, tt, var,
@@ -59,7 +64,6 @@ const GlobalStyles = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        font-family: 'Raleway', sans-serif;
         box-sizing: border-box;
     }
 
@@ -137,6 +141,7 @@ const GlobalStyles = createGlobalStyle`
             opacity: 1;
         }
     }
+
 `;
 
 export default GlobalStyles;

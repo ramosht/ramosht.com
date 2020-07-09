@@ -5,6 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-import "typeface-raleway"
 import "lazysizes"
-require("prismjs/themes/prism-tomorrow.css")
+require("prismjs/themes/prism-okaidia.css")
+require("prismjs/plugins/line-numbers/prism-line-numbers.css")

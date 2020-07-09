@@ -1,0 +1,12 @@
+{
+  "company": "DOK Despachante",
+  "occupation": "Desenvolvedor Front-end",
+  "start_date": "2019-07-01",
+  "end_date": "2020-05-01",
+  "is_current": false,
+  "location": {
+    "city": "Sorocaba",
+    "state": "São Paulo"
+  },
+  "description": "Desenvolvimento e manutenção do front-end das diversas aplicações que compõem o ecossistema da empresa: sistema de checkout, sistema interno, landing pages, email marketing, etc."
+}

@@ -73,18 +73,19 @@ export const PostCategory = styled.span`
 `;
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   line-height: 1.35;
-  font-weight: 600;
+  font-weight: 700;
   margin: 1rem 0 .5rem 0;
   color: var(--text);
   transition: color .2s;
 `;
 
 export const PostItemDescription = styled.p`
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: var(--text);
   line-height: 1.15;
+  font-weight: 500;
 
   @media screen and (max-width: 575px) {
     display: none;

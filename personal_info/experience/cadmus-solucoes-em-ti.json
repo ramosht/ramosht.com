@@ -1,0 +1,12 @@
+{
+  "company": "Cadmus Soluções em TI",
+  "occupation": "Analista Desenvolvedor III",
+  "start_date": "2020-05-01",
+  "end_date": "",
+  "is_current": true,
+  "location": {
+    "city": "Votorantim",
+    "state": "São Paulo"
+  },
+  "description": "Desenvolvimento de aplicações utilizando Node.js, React (Hooks), Redux e MongoDB."
+}

@@ -5,13 +5,13 @@ import PostItemThumbnail from '../PostItemThumbnail';
 
 export default function PostItem({ slug, category, date, title, description, thumbnail, siteUrl }) {
   const sanitizedThumbnailUrl = thumbnail.split('').slice(11,).join('');
-  console.log(sanitizedThumbnailUrl);
-
+  const descriptionSize = 75;
+  const sanitizedDescription = description.slice(0, descriptionSize);
+  
   return (
     <S.PostItemWrapper to={ slug }>
         <S.PostThumbnailWrapper>
-          {/* <S.PostThumbnailImage className="postThumbnailImage" src={`${siteUrl}/${thumbnail}`} alt={title}/> */}
-          <PostItemThumbnail alt="Gatsby in Space" filename={sanitizedThumbnailUrl}/>
+          <PostItemThumbnail className="postThumbnailImage" alt={title} filename={sanitizedThumbnailUrl}/>
         </S.PostThumbnailWrapper>
         <S.PostContent>
           <S.PostItemHeader>
@@ -19,7 +19,7 @@ export default function PostItem({ slug, category, date, title, description, thu
             <S.PostCategory>{ category }</S.PostCategory>
           </S.PostItemHeader>
           <S.PostItemTitle>{ title }</S.PostItemTitle>
-          <S.PostItemDescription>{ description }</S.PostItemDescription>
+          <S.PostItemDescription>{ description.length > descriptionSize ? `${sanitizedDescription}...` : sanitizedDescription }</S.PostItemDescription>
         </S.PostContent>
     </S.PostItemWrapper>
   )
