@@ -1,13 +1,58 @@
 import React from 'react'
+import {uuid} from 'uuidv4'
 import * as PS from '../../components/Post/styled'
 
 import SEO from '../../components/seo'
 import Layout from '../../components/Layout'
-import Curso from '../../components/Curso'
-import ProfessionalExperience from '../../components/ProfessionalExperience'
+import Certification from '../../components/Certification'
+import Experience from '../../components/Experience'
 import SocialLinks from '../../components/SocialLinks'
+import {graphql, useStaticQuery} from 'gatsby';
+import FormatDate from '../../utils/FormatDate';
 
 const Sobre = () => {
+    const formatDate = new FormatDate();
+
+    const { allExperienceJson, allCertificationsJson } = useStaticQuery(
+        graphql`
+            query MyQuery {
+                allExperienceJson(sort: {fields: start_date, order: DESC}) {
+                    edges {
+                        node {
+                            id
+                            company
+                            description
+                            end_date
+                            is_current
+                            location {
+                                city
+                                state
+                            }
+                            occupation
+                            start_date
+                        }
+                    }
+                }
+                allCertificationsJson(sort: {order: DESC, fields: issue_date}) {
+                    edges {
+                        node {
+                            children {
+                                id
+                            }
+                            credential_id
+                            credential_url
+                            description
+                            id
+                            title
+                            organization
+                            issue_date
+                        }
+                    }
+                }
+            }
+        `
+    );
+
     return (
         <Layout>
             <SEO 
@@ -17,7 +62,7 @@ const Sobre = () => {
 
             <main>
                 <PS.PostHeader>
-                    <PS.PostTitle>Um pouco sobre mim</PS.PostTitle>
+                    <h1>Um pouco sobre mim</h1>
                 </PS.PostHeader>
                 <PS.MainContent>
                     <div>
@@ -28,84 +73,82 @@ const Sobre = () => {
                     </div>
 
                     <div>
+                        <h2>Experiência</h2>
+                        
+                        {allExperienceJson.edges.map(item => {
+                            const experience = item.node;
+
+                            const formattedStartDate = formatDate.formatDate(experience.start_date);
+                            const formattedEndDate = formatDate.formatDate(experience.end_date);
+
+                            const timeOfService = formatDate.differenceInWords(experience.start_date, experience.end_date, experience.is_current);
+
+                            const location = `${experience.location.city}, ${experience.location.state}`
+
+                            return (
+                                <Experience 
+                                    startDate={formattedStartDate}
+                                    endDate={formattedEndDate}
+                                    isCurrent={experience.is_current}
+                                    company={experience.company}
+                                    occupation={experience.occupation}
+                                    location={location}
+                                    timeOfService={timeOfService}
+                                    description={experience.description}
+                                    key={uuid()}
+                                />
+                            )
+                        })}
+                    </div>
+
+                    <div>
                         <h2>Cursos e Especializações</h2>
-                        <Curso 
-                            titulo="Formação Front-end"
-                            instituicao="Alura Cursos Online"
-                            data="mar de 2020"
-                        />
-                        <Curso 
-                            titulo="Semana OmniStack 11"
-                            instituicao="Rocketseat"
-                            data="mar de 2020"
-                        />
-                        <Curso 
-                            titulo="Formação SEO"
-                            instituicao="Alura Cursos Online"
-                            data="mai de 2019"
-                        />
+                        {allCertificationsJson.edges.map(item => {
+                            const certification = item.node;
+
+                            const formattedIssueDate = formatDate.formatDate(certification.issue_date);
+
+                            return (
+                                <Certification 
+                                    title={certification.title}
+                                    organization={certification.organization}
+                                    issue_date={formattedIssueDate}
+                                    credential_id={certification.credential_id}
+                                    credential_url={certification.credential_url}
+                                    description={certification.description}
+                                    key={uuid()}
+                                />
+                            )
+                        })}
                     </div>
 
                     <div>
-                        <h2>Experiências profissionais</h2>
-                        <ProfessionalExperience 
-                            atuacao="Desenvolvedor III"
-                            instituicao="Cadmus Soluções em TI"
-                            periodo="mai de 2020 - atualmente"
-                        />
-                        <ProfessionalExperience 
-                            atuacao="Desenvolvedor de front-end"
-                            instituicao="DOK Despachante"
-                            descricao="Front-end das diversas áreas que compõem o ecossistema da empresa: sistema de checkout, sistema interno, landing pages, etc."
-                            periodo="jul de 2019 - mai de 2020 (11 meses)"
-                        />
-                        <ProfessionalExperience 
-                            atuacao="Professor"
-                            instituicao="Cursinho do Prof. Carlão"
-                            descricao="Aulas de noções de informática para concursos públicos. As aulas cobriam Windows 7, Pacote Office 2010, noções de Rede e Internet. Além das aulas, também cuidei da identidade visual (criando o logo) e das mídias sociais, criando imagens promocionais para os posts do Facebook e Instagram."
-                            periodo="mar de 2019 - abr de 2019 (2 meses)"
-                        />
-                        <ProfessionalExperience 
-                            atuacao="Assistente"
-                            instituicao="Gabi Cupcakes"
-                            descricao="Responsável pela presença digital da empresa, criando a identidade visual da empresa (logo, fonte e cores) e realizando um trabalho de marketing no Facebook e no Instagram."
-                            periodo="jun de 2017 - mar de 2018 (10 meses)"
-                        />
-                        <ProfessionalExperience 
-                            atuacao="Atendente de negócios"
-                            instituicao="Horus Soluções e Serviços em Prevenção a Fraudes"
-                            descricao="Análise e prevenção de fraudes em passagens aéreas. Também trabalhei no setor de TI,"
-                            periodo="fev de 2016 - jul de 2017 (1 ano e 6 meses)"
-                        />
-                    </div>
-
-                    <div>
-                        <h2>Habilidades</h2>
+                        <h2>Tecnologias</h2>
+                        <p>As tecnologias com as quais estou em contato diariamente</p>
                         <ul>
                             <li>HTML5/CSS3</li>
-                            <li>SASS</li>
-                            <li>Bootstrap</li>
-                            <li>Web Design Responsivo</li>
-                            <li>UX/UI</li>
                             <li>JavaScript (ES6)</li>
-                            <li>jQuery</li>
-                            <li>Vue.js (Vuex)</li>
-                            <li>React.js (Redux)</li>
+                            <li>React.JS</li>
+                            <li>React Native (me aventurando)</li>
                             <li>Gatsby.js</li>
                             <li>Node.js</li>
-                            <li>PHP</li>
-                            <li>Laravel</li>
+                            <li>Vue.js</li>
+                            <li>Banco de Dados (MongoDB, MySQL, Postgres)</li>
+                            <li>SASS</li>
+                            <li>jQuery</li>
                             <li>Git (Github e Bitbucket)</li>
-                            <li>MySQL</li>
+                            <li>Docker (me aventurando)</li>
                             <li>O que eu não sei, aprendo rápido <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h2>Conhecimentos</h2>
+                        <h2>Habilidades</h2>
+                        <p>Áreas que, apesar de não ser profissional, estou sempre em contato nos meus projetos pessoais.</p>
                         <ul>
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
+                            <li>Design Gráfico (Photoshop, Illustrator)</li>
+                            <li>UX/UI (Figma, Photoshop)</li>
+                            <li>Escrita (copywriting)</li>
                             <li>Google Analytics</li>
                             <li>SEO</li>
                         </ul>

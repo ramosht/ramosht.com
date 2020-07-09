@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
-    position: `Desenvolvedor Front-end | UX`,
-    description: `Cristão, desenvolvedor, fotógrafo e músico nas horas vagas. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
+    position: `Desenvolvedor Front End`,
+    description: `Desenvolvedor, fotógrafo e músico. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `pt-br`,
     siteUrl: 'https://ramosht.com/',
@@ -11,6 +11,17 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Raleway`,
+            variants: [`300`, `500`, `600`, `700`]
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,6 +50,14 @@ module.exports = {
         path: `${__dirname}/posts`
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `personal_info`,
+        path: `${__dirname}/personal_info`
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -64,7 +83,7 @@ module.exports = {
             }
           },
           `gatsby-remark-lazy-load`,
-          `gatsby-remark-prismjs`,
+          `gatsby-remark-prismjs`
         ],
       },
     },
@@ -76,8 +95,8 @@ module.exports = {
         name: `Guilherme Ramos`,
         short_name: `ramosht`,
         start_url: `/`,
-        background_color: `##3D2C40`,
-        theme_color: `##3D2C40`,
+        background_color: `#3D2C40`,
+        theme_color: `#3D2C40`,
         display: `minimal-ui`,
         icon: `src/images/profile-photo.jpg`, // This path is relative to the root of the site.
       },

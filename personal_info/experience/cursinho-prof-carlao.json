@@ -1,0 +1,12 @@
+{
+  "company": "Cursinho do Prof. Carlão",
+  "occupation": "Professor",
+  "start_date": "2019-03-01",
+  "end_date": "2019-04-01",
+  "is_current": false,
+  "location": {
+    "city": "Votorantim",
+    "state": "São Paulo"
+  },
+  "description": "Aulas de noções de informática para concursos públicos. As aulas cobriam Windows 7, Pacote Office 2010, noções de Rede e Internet. Além das aulas, também cuidei da identidade visual (criando o logo) e das mídias sociais, criando imagens promocionais para os posts do Facebook e Instagram."
+}

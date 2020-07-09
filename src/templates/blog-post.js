@@ -17,7 +17,7 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.thumbnail} />
       <S.PostHeader>
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
-        <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
+        <h1>{post.frontmatter.title}</h1>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
         <S.PostThumbnail src={`${data.site.siteMetadata.siteUrl}/${post.frontmatter.thumbnail}`} />
       </S.PostHeader>

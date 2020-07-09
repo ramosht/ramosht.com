@@ -6,25 +6,35 @@ export const ProfileWrapper = styled.div`
     align-items: center;
     justify-content: center;
     color: var(--white);
-    padding: 0 1rem;
-    `;
-    
-    export const ProfileName = styled.h1`
-    font-size: 1.15rem;
-    margin-top: .5rem;
-    color: var(--white);
-    `;
-    
-    export const ProfilePosition = styled.p`
+    padding: 0;
+
+    .header {
+        h1 {
+            font-size: 1.35rem;
+            margin-top: .5rem;
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        span {
+            font-size: 0.9rem;
+            // font-weight: 300;
+            font-style: italic;
+            margin-top: .25rem;
+            display: block;
+        }
+    }
+
+
+    p {
         font-size: 0.95rem;
         line-height: 1.25;
         margin: 1.5rem 0;
-        // font-weight: 200;
         color: var(--white);
         letter-spacing: 1px;
         text-align: center;
         position: relative;
-
+        
         &:before,
         &:after {
             content: '';
@@ -36,14 +46,15 @@ export const ProfileWrapper = styled.div`
             background: var(--white);
             opacity: .35;
         }
-
+        
         &:before {
             top: -.75rem;
             width: 8rem;
         }
-
+        
         &:after {
             bottom: -.75rem;
             width: 4rem;
         }
-    `;
+    }
+`;

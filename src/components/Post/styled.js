@@ -5,26 +5,26 @@ export const PostHeader = styled.header`
   color: var(--text);
   margin: auto;	
   max-width: 70rem;
-`
+  margin-bottom: 1rem;
 
-export const PostTitle = styled.h1`
-  font-size: 3rem;
-  line-height: 1.15;
-  font-weight: 700;
-  margin: 1rem auto;
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.15;
+    font-weight: 700;
+    margin: .5rem auto;
 
-  @media screen and (max-width: 1200px) {
-    font-size: 2rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 2rem;
+    }
   }
 `
 
 export const PostDescription = styled.h2`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.25;
-  font-weight: 300;
 
   @media screen and (max-width: 1200px) {
-    font-size: 1.35rem;
+    font-size: 1.15rem;
   }
 `
 
@@ -41,7 +41,7 @@ export const PostThumbnail = styled.img`
 `;
 
 export const MainContent = styled.section`
-  padding: 2rem 0;
+  padding: 1 rem 0;
   p,
   h1,
   h2,
@@ -55,7 +55,7 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--text);
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 500;
     line-height: 1.7;
     letter-spacing: 0.069rem;
@@ -63,67 +63,73 @@ export const MainContent = styled.section`
       font-size: 1rem;
     }
   }
+
   .gatsby-highlight .plain-text {
     color: var(--gray-03);
   }
   
   p {
-    margin: 0 auto 1.6rem;
+    margin: 0 auto 1rem;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 2.4rem auto 1rem;
-  }
+
   ul,
   ol {
     list-style: disc;
-    padding-left: 2.5rem;
-    margin: 0 auto 1.6rem;
+    padding-left: 2rem;
+    margin: 0 auto 1rem;
 
     &.informacoesPessoaisSobre {
       list-style: none;
       padding: 0
     }
   }
+
   li {
-    padding: 0.625rem 0;
+    & + li {
+      padding-top: 0.65rem;
+    }
+
     & > ul {
       margin-bottom: 0;
     }
   }
+
   p,
   li {
     code {
       word-wrap: break-word;
     }
   }
+
   img {
     display: block;
     max-width: 100%;
     margin: 1.875rem auto;
   }
+
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
   }
+
   blockquote {
     color: var(--white);
     border-left: 0.3rem solid var(--highlight);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
+
   hr {
     border: 1px solid var(--highlight);
     margin: 3rem auto;
   }
+
   #twitter-widget-0,
   .instagram-media,
   .twitter-tweet {
     margin: 20px auto !important;
   }
+
   h1,
   h2,
   h3,
@@ -131,41 +137,55 @@ export const MainContent = styled.section`
   h5 {
     font-weight: 800;
     letter-spacing: 0.069rem;
-    line-height: 1.4;
+    line-height: 1.25;
   }
+  
   h1 {
-    font-size: 2.4rem;
+    font-size: 1.75rem;
+    margin: 2.4rem auto 1rem;
+
     @media screen and (max-width: 1200px) {
-      font-size: 1.8rem;
+      font-size: 1.75rem;
     }
   }
+
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 1.4rem auto 1rem;
+
     @media screen and (max-width: 1200px) {
       font-size: 1.6rem;
     }
   }
+
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.5rem auto .5rem;
+
     @media screen and (max-width: 1200px) {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   }
+
   h4 {
-    font-size: 1.4rem;
-    @media screen and (max-width: 1200px) {
-      font-size: 1.2rem;
-    }
+    font-size: 1.15rem;
+    font-weight: bold;
   }
+
   h5 {
     font-size: 1.2rem;
+    font-weight: bold;
+    
     @media screen and (max-width: 1200px) {
       font-size: 1rem;
     }
   }
+
   strong {
-    font-weight: 700;
+    font-weight: bold;
   }
+  
   .gatsby-resp-image-background-image {
     z-index: 2;
     opacity: 1 !important;
@@ -189,7 +209,7 @@ export const MainContent = styled.section`
   }
   a {
     border-bottom: 1px dashed var(--highlight);
-    color: var(--highlight);
+    color: var(--text);
     text-decoration: none;
     transition: opacity 0.5s;
     svg {
@@ -206,7 +226,12 @@ export const MainContent = styled.section`
       margin: 0;
   
       li {
-        margin: 0 2rem;
+        margin: 0 1rem;
+        padding: 0;
+
+        @media screen and (min-width: 576px) {
+          margin: 0 2rem;
+        }
         
         a {
           border: none;

@@ -3,11 +3,13 @@ import { HamburgerSpin } from 'react-animated-burgers'
 
 export const AsideWrapper = styled.aside`
     height: 100vh;
+    height: -webkit-fill-available; 
     width: 100vw;
     position: fixed;
     top: 0;
     left: -110%;
     transition: left .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
 
     display: flex;
     align-items: center;
@@ -20,10 +22,6 @@ export const AsideWrapper = styled.aside`
     @media screen and (min-width: 768px) {
         width: 20rem;
         left: 0;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 25rem;
     }
 
     &.shown {
