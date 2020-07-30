@@ -49,10 +49,10 @@ export const PostItemHeader = styled.div`
   align-items: center;
   font-size: .9rem;
 
-  @media screen and (max-width: 575px) {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  // @media screen and (max-width: 575px) {
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  // }
 `;
 
 export const PostDate = styled.time`
@@ -66,10 +66,10 @@ export const PostCategory = styled.span`
   margin-left: 1rem;
   font-weight: 700;
 
-  @media screen and (max-width: 575px) {
-    margin: .5rem 0 0 0;
-    padding: 0;
-  }
+  // @media screen and (max-width: 575px) {
+  //   margin: .5rem 0 0 0;
+  //   padding: 0;
+  // }
 `;
 
 export const PostItemTitle = styled.h1`

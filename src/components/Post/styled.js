@@ -220,6 +220,18 @@ export const MainContent = styled.section`
     }
   }
   .aboutContato {
+    text-align: center;
+
+    &Mail {
+      display: inline-block;
+      margin-top: 1rem;
+      
+      @media screen and (min-width: 768px) {
+        margin-top: 1.5rem;
+        font-size: 1.75rem;
+      }
+    }
+
     ul {
       list-style: none;
       padding: 0;
