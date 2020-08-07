@@ -11,17 +11,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `Raleway`,
-    //         variants: [`300`, `500`, `600`, `700`]
-    //       },
-    //     ],
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

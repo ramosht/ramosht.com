@@ -1,13 +1,15 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
+
     body {
         --black-01: #212121;
-        --black-02: #444;
-        --gray-01: #666;
-        --gray-02: #aaa;
+        --black-02: #444444;
+        --gray-01: #666666;
+        --gray-02: #aaaaaa;
         --gray-03: #f4f4f4;
-        --white: #fff;
+        --white: #ffffff;
 
         * {
             font-family: 'Raleway', sans-serif;
@@ -21,9 +23,9 @@ const GlobalStyles = createGlobalStyle`
         --text: #212121;
         --highlight: #3d2c40;
         --recommendedBackground: #f4f4f4;
-        --recommendedColor: #aaa;
-        --background: #fff;
-        --postBackground: #fff;
+        --recommendedColor: #aaaaaa;
+        --background: #ffffff;
+        --postBackground: #ffffff;
 
         --hamburgerColor: #818c83;
 
@@ -33,10 +35,10 @@ const GlobalStyles = createGlobalStyle`
     body.dark {
         --themeColor: #3d2c40;
 
-        --text: #fff;
-        --highlight: #fff;
+        --text: #ffffff;
+        --highlight: #ffffff;
         --recommendedBackground: #261a26;
-        --recommendedColor: #fff;
+        --recommendedColor: #ffffff;
         --background: #3d2c40;
         --postBackground: #261a26;
 

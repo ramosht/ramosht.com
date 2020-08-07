@@ -68,7 +68,7 @@ const Sobre = () => {
                     <div>
                         <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end há quase dois anos</p>
                         <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front, back, infra, UX/UI, design, copywriting, enfim, todo tipo de B.O. que aparecia, era eu quem tinha de resolver. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato.</p>
-                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies são: fotografia, música, leitura e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
+                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies são: fotografia, música (toco violão e teclado), leitura e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
                         <p>Estou o tempo todo aprendendo tecnologias e conceitos novos e tentando entender como posso usá-los para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
                     </div>
 
@@ -123,21 +123,23 @@ const Sobre = () => {
                     </div>
 
                     <div>
-                        <h2>Tecnologias</h2>
-                        <p>As tecnologias com as quais estou em contato diariamente</p>
+                        <h2>Conhecimentos</h2>
+                        <p>As tecnologias e conceitos com os quais estou em contato diariamente</p>
                         <ul>
                             <li>HTML5/CSS3</li>
                             <li>JavaScript (ES6)</li>
-                            <li>React.JS</li>
+                            <li>jQuery</li>
+                            <li>SCSS/Sass</li>
+                            <li>Web Design Responsivo</li>
+                            <li>React.JS (hooks)</li>
                             <li>React Native (me aventurando)</li>
+                            <li>Styled Components</li>
                             <li>Gatsby.js</li>
                             <li>Node.js</li>
                             <li>Vue.js</li>
                             <li>Banco de Dados (MongoDB, MySQL, Postgres)</li>
-                            <li>SASS</li>
-                            <li>jQuery</li>
                             <li>Git (Github e Bitbucket)</li>
-                            <li>Docker (me aventurando)</li>
+                            <li>Clean Code</li>
                             <li>O que eu não sei, aprendo rápido <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
                         </ul>
                     </div>
@@ -151,6 +153,13 @@ const Sobre = () => {
                             <li>Escrita (copywriting)</li>
                             <li>Google Analytics</li>
                             <li>SEO</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Idiomas</h2>
+                        <ul>
+                            <li>Inglês: Intermediário/Avançado</li>
                         </ul>
                     </div>
 
