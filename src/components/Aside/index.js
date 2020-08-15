@@ -1,38 +1,40 @@
-import React, { useState } from 'react'
+import React from 'react'
 import * as S from './styled.js'
 import MenuLinks from '../MenuLinks'
+import {useMediaQuery} from 'react-responsive'
 
 // Components
 import Profile from "../Profile"
 import ThemeToggle from '../ThemeToggle';
 
-const Aside = () => {
-    const [ hamburgerState, setHamburgerState ] = useState(false);
-    const [ asideState, setAsideState ] = useState(false);
-    
-    function toggleButton() {
-        setHamburgerState(!hamburgerState);
-        setAsideState(!asideState);
-    }
-    
+const Aside = (props) => {
+    // const isMobile = useMediaQuery({query: '(max-width: 767px)'});
+    const isDesktop = useMediaQuery({query: '(min-width: 768px)'});
+
     return (
-        <S.AsideWrapper className={ asideState ? 'shown' : '' }>
-            <S.AsideBackgroundDark className="sidebarDark" />
-            <S.AsideBackgroundLight className="sidebarLight" />
+        <S.AsideWrapper className={ props.asideState ? 'shown' : '' }>
+            {isDesktop &&
+                <>
+                    <S.AsideBackgroundDark className="sidebarDark" />
+                    <S.AsideBackgroundLight className="sidebarLight" />
+                </>
+            }
 
             <S.MenuWrapper>
                 <MenuLinks />
             </S.MenuWrapper>
 
-            <S.ProfileWrapper>
-                <Profile />
-            </S.ProfileWrapper>
+            {isDesktop &&
+                <>
+                    <S.ProfileWrapper>
+                        <Profile />
+                    </S.ProfileWrapper>
 
-            <S.ThemeToggleWrapper>
-                <ThemeToggle />
-            </S.ThemeToggleWrapper>
-
-            <S.Hamburger isActive={hamburgerState} onClick={() => toggleButton()} buttonColor="#261a26" barColor="white" buttonWidth={36}  />
+                    <S.ThemeToggleWrapper>
+                        <ThemeToggle />
+                    </S.ThemeToggleWrapper>
+                </>
+            }
         </S.AsideWrapper>   
     )
 }

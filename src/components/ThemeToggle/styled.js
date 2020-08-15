@@ -1,15 +1,20 @@
 import styled from 'styled-components';
+import { Lightbulb } from '@styled-icons/fa-regular/Lightbulb'
 
 export const ThemeToggleWrapper = styled.button`
-  width: 4.5rem;
-  height: 2rem;
   background: transparent;
-  border-radius: 1.65rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  border: 2px solid var(--white);
+  border: none;
+
+  @media screen and (min-width: 767px) {
+    width: 4.5rem;
+    height: 2rem;
+    border-radius: 1.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 2px solid var(--white);
+  }
   
   &:active,
   &:focus {
@@ -48,5 +53,26 @@ export const ThemeToggleIcon = styled.div`
 
   &.dark {
     left: calc(100% - 1rem);
+  }
+`;
+
+export const LightbulbIcon = styled(Lightbulb)`
+  svg, * {
+    color: var(--lightbulb-color);
+    transition: color .2s;
+  }
+`
+
+export const ThemeToggleDesktop = styled.div`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+`;
+
+export const ThemeToggleMobile = styled.div`
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 `;

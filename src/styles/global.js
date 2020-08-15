@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
 
     body.light {
         --themeColor: #818c83;
+        --toolbarBackground: #212121;
 
         --text: #212121;
         --highlight: #3d2c40;
@@ -30,10 +31,13 @@ const GlobalStyles = createGlobalStyle`
         --hamburgerColor: #818c83;
 
         background: var(--background);
+
+        --lightbulb-color: #ffd500;
     }
 
     body.dark {
         --themeColor: #3d2c40;
+        --toolbarBackground: #1a111a;
 
         --text: #ffffff;
         --highlight: #ffffff;
@@ -45,6 +49,8 @@ const GlobalStyles = createGlobalStyle`
         --hamburgerColor: #261a26;
 
         background: var(--background);
+
+        --lightbulb-color: rgba(255, 255, 255, .5);
     }
 
     html, body, div, span, applet, object, iframe,
@@ -81,6 +87,11 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         line-height: 1;
+
+        @media screen and (max-width: 767px) {
+            padding-top: 4.75rem;
+            padding-bottom: 4rem;
+        }
     }
 
     ol, ul {

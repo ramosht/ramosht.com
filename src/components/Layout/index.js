@@ -1,19 +1,33 @@
-import React from "react"
+import React, {useState} from "react"
+import {useMediaQuery} from 'react-responsive'
+
 import PropTypes from "prop-types"
 import Aside from "../Aside"
-
-import * as s from "./styled"
+import LayoutHeaderMobile from "../LayoutHeaderMobile"
+import LayoutToolbarMobile from '../LayoutToolbarMobile'
 
 import GlobalStyle from "../../styles/global"
+import * as s from "./styled"
+
 
 const Layout = ({ children }) => {
+  const [ asideState, setAsideState ] = useState(false);
+  const isMobile = useMediaQuery({query: '(max-width: 767px)'});
+
   return (
     <s.Layout>
       <GlobalStyle />
-      <Aside />
+      
+      {isMobile && <LayoutHeaderMobile asideState={asideState} />}
+
+      <Aside asideState={asideState} />
+      
       <s.Main>
         {children}
       </s.Main>
+
+      {isMobile && <LayoutToolbarMobile setAsideState={setAsideState} asideState={asideState} />}
+
     </s.Layout>
   )
 }

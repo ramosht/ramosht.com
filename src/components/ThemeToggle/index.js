@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import * as S from './styled';
+import {useMediaQuery} from 'react-responsive'
+
 
 const ThemeToggle = () => {
   const [ theme, setTheme ] = useState(null);
   const isDarkMode = theme === 'dark';
+
+  const isMobile = useMediaQuery({query: '(max-width: 767px)'});
+  const isDesktop = useMediaQuery({query: '(min-width: 768px)'});
 
   useEffect(() => {
     setTheme(window.__theme);
@@ -23,10 +28,18 @@ const ThemeToggle = () => {
           }, 300)
         }
       }} 
-    >
-      <S.ThemeToggleIcon className="light"><span role="img" aria-label="Tema Claro">☀️</span></S.ThemeToggleIcon>
-      <S.ThemeToggleBullet selected={ theme } />
-      <S.ThemeToggleIcon className="dark"><span role="img" aria-label="Tema Escuro">🌙</span></S.ThemeToggleIcon>
+    > 
+      {isDesktop && 
+        <>
+          <S.ThemeToggleIcon className="light"><span role="img" aria-label="Tema Claro">☀️</span></S.ThemeToggleIcon>
+          <S.ThemeToggleBullet selected={ theme } />
+          <S.ThemeToggleIcon className="dark"><span role="img" aria-label="Tema Escuro">🌙</span></S.ThemeToggleIcon>
+        </>
+      }
+
+      {isMobile &&
+        <S.LightbulbIcon size={24} />
+      }
     </S.ThemeToggleWrapper>
   )
 }
