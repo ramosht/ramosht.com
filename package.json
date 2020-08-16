@@ -9,7 +9,7 @@
     "babel-preset-gatsby": "^0.5.1",
     "date-fns": "^2.14.0",
     "gatsby": "^2.19.43",
-    "gatsby-cli": "2.11.1",
+    "gatsby-cli": "^2.1.60",
     "gatsby-image": "^2.2.43",
     "gatsby-plugin-canonical-urls": "^2.3.0",
     "gatsby-plugin-google-analytics": "^2.3.0",
