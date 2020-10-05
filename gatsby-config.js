@@ -3,7 +3,7 @@ module.exports = {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
     position: `Desenvolvedor Front End`,
-    description: `Cristão, desenvolvedor, fotógrafo e músico. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
+    description: `Desenvolvedor, fotógrafo e músico. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `pt-br`,
     siteUrl: 'https://ramosht.com/',

@@ -2,8 +2,8 @@
   "company": "Cadmus Soluções em TI",
   "occupation": "Analista Desenvolvedor III",
   "start_date": "2020-05-01",
-  "end_date": "",
-  "is_current": true,
+  "end_date": "2020-08-01",
+  "is_current": false,
   "location": {
     "city": "Votorantim",
     "state": "São Paulo"

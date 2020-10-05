@@ -1,0 +1,12 @@
+{
+  "company": "GO.K",
+  "occupation": "Desenvolvedor Front-end React",
+  "start_date": "2020-09-01",
+  "end_date": "",
+  "is_current": true,
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo"
+  },
+  "description": "Desenvolvimento de aplicações web e mobile com React e React Native."
+}
