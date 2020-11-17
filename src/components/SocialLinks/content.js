@@ -9,11 +9,11 @@ const links = [
     },
     {
         label: 'Twitter',
-        url: 'https://twitter.com/ramosht_'
+        url: 'https://twitter.com/ramos_ht'
     },
     {
         label: 'Instagram',
-        url: 'https://instagram.com/ramos_ht'
+        url: 'https://instagram.com/ramosht_'
     },
 ]
 
