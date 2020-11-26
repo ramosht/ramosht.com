@@ -6,7 +6,7 @@ module.exports = {
     description: `Desenvolvedor, fotógrafo e músico. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `pt-br`,
-    siteUrl: 'https://ramosht.com/',
+    siteUrl: 'https://guiramos.dev/',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -99,7 +99,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://ramosht.com/`,
+        siteUrl: `https://guiramos.dev/`,
       },
     },
     `gatsby-plugin-sitemap`,

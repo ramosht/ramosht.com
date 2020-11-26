@@ -165,7 +165,6 @@ const Sobre = () => {
 
                     <div className="aboutContato">
                         <SocialLinks iconSize="42px" iconColor="var(--text)" />
-                        <a className="aboutContatoMail" href="mailto:contato@ramosht.com">contato@ramosht.com</a>
                     </div>
                 </PS.MainContent>
             </main>
