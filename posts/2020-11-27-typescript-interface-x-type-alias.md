@@ -3,25 +3,25 @@ title: "Typescript: Interface x Type alias"
 description: Sabe a diferença entre type aliases e interfaces? Na prática, eles
   parecem ser a mesma coisa, mas existem algumas diferenças bem pontuais entre
   um e outro.
-category: Outros
+category: Typescript
 date: 2020-11-27 06:00:05
 thumbnail: assets/img/nordwood-themes-e9tfh39irpe-unsplash.jpg
 ---
-No último final de semana, eu peguei o [mini-curso de Typescript do Willian Justen](https://youtu.be/mRixno_uE2o) e, apesar de já usar typescript no meu dia a dia, achei bem legal para entender um pouco melhor algumas coisas que a gente não pega quando aprende direto na prática, ou entender melhor algumas práticas que eu usava mas não entendia muito a fundo a razão de usar. Além de ser gratuito, no YouTube, é bem curto (15 aulas). Recomendo, com certeza, para qualquer um que queira aprender a tecnologia ou entender um pouco melhor.
+No último final de semana, eu peguei o [mini-curso de Typescript do Willian Justen](https://youtu.be/mRixno_uE2o) e, apesar de já usar typescript no meu dia a dia, achei bem legal para entender um pouco melhor algumas coisas que não peguei aprendendo na prática, ou entender melhor algumas práticas que eu usava mas não entendia muito a fundo a razão de usar. Além de ser gratuito, no YouTube, é bem curto (15 aulas). Recomendo, com certeza, para qualquer um que queira aprender a tecnologia ou entender um pouco melhor.
 
 Porém, revisando as minhas anotações, depois de já ter terminado o curso, acabei ficando com a seguinte dúvida: **qual a diferença entre type aliases e interfaces**?
 
 Na prática, eles parecem ser a mesma coisa: apesar da sintaxe diferente, você pode usar ambos para declarar objetos, pode implementá-los em classes e pode até rolar uma herança ali, entre eles. Então, tanto faz usar um ou outro?
 
-A resposta, é: claro que não.
+A resposta é: claro que não.
 
-Existem diferenças e casos de uso para ambos (apesar de que, na prática, você vai ver que não é uma diferença tão absurda, mas é legal ter em mente).
+Existem diferenças e casos de uso para ambos (apesar de que, na prática, na maioria dos casos, você realmente pode usar tanto um quanto outro).
 
-Então, vamos lá:
+Mas vamos lá entender um pouco melhor isso:
 
 ## Antes de mais nada, o que são type aliases e interfaces
 
-Nada mais são do que formas de declarar tipos dentro do typescript.
+Nada mais são do que formas de tipar constantes ou objetos dentro do typescript.
 
 As interfaces são usadas para, somente, descrever objetos, como é visto no exemplo a seguir:
 
@@ -38,10 +38,13 @@ interface Table {
 Já um type alias é usado para declarar tipos, de modo geral, seja um tipo primitivo, união ou, também, um objeto:
 
 ```typescript
+type Height = number
+
+type Width = number
+
 type Size = {
-	width: number
-	height: number
-	length: number
+	width: Width
+	height: Height
 };
 
 type Color = "Black" | "White" | "Brown"
@@ -53,9 +56,9 @@ type Table = {
 }
 ```
 
-Essa é a diferença mais marcante. Porém, se fosse a única, eu poderia usar type aliases para declarar qualquer tipo, e tava tudo bem, não é mesmo? Não precisaria nem de interfaces, já que um type alias também serve para objetos.
+Essa é a diferença mais marcante. Porém, se fosse a única, eu poderia usar type aliases para declarar qualquer tipo, e tava tudo bem, não é mesmo? Na verdade, não precisaria nem de interfaces, já que um type alias também serve para objetos.
 
-Porém, as diferenças vão um pouquinho mais além do que isso.
+Porém, as diferenças vão um pouquinho mais além do que isso. Entao, se sa assa- 
 
 ### Semelhança: Objectos e funções
 
