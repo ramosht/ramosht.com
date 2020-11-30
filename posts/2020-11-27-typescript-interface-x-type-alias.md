@@ -208,3 +208,5 @@ Como eu disse, as diferenças são bem sutis e específicas, apesar delas existi
 Mas essa é só a minha opinião. No dia a dia, vale definir um padrão com a sua equipe, ou seguir o padrão que ela já determinou.
 
 E aí, já sabia dessas diferenças? E qual a sua opinião sobre o melhor uso em cada cenário? Escreve aí nos comentários.
+
+Fonte: [TypeScript: Interfaces vs Types](https://stackoverflow.com/a/52682220/10545860)
