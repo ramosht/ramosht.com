@@ -10,6 +10,7 @@ const Experience = ({ startDate, endDate, isCurrent, company, occupation, locati
                 <span className="time">{startDate} - {isCurrent ? 'Presente' : endDate} &#183; {timeOfService}</span>
                 <span className="location">{location}</span>
             </span>
+            <p className="description">"{description}"</p>
         </S.ExperienciaWrapper>
     )
 }

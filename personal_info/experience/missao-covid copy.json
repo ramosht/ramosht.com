@@ -1,0 +1,12 @@
+{
+  "company": "Missão Covid",
+  "occupation": "Desenvolvedor React (voluntário)",
+  "start_date": "2020-04-01",
+  "end_date": "2020-05-05",
+  "is_current": false,
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo"
+  },
+  "description": "Entrei um pouco após o lançamento da plataforma (desenvolvida com React e GraphQL), ajudando principalmente na correção de bugs e implementando funcionalidades novas."
+}

@@ -66,9 +66,9 @@ const Sobre = () => {
                 </PS.PostHeader>
                 <PS.MainContent>
                     <div>
-                        <p>Meu nome é Guilherme Ramos, nasci em Sorocaba/SP e sou desenvolvedor front-end há quase dois anos</p>
-                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front, back, infra, UX/UI, design, copywriting, enfim, todo tipo de B.O. que aparecia, era eu quem tinha de resolver. Apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato.</p>
-                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies são: fotografia, música (toco violão e teclado), leitura e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
+                        <p>Meu nome é Guilherme, nasci em Sorocaba/SP e sou desenvolvedor front-end react (web e mobile).</p>
+                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, UX/UI, design, copywriting, enfim... Tudo o que aparecia para fazer durante o desenvolvimento dos sites, era eu que encarava e, apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato.</p>
+                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies incluem: fotografia, música e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
                         <p>Estou o tempo todo aprendendo tecnologias e conceitos novos e tentando entender como posso usá-los para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
                     </div>
 
@@ -128,31 +128,30 @@ const Sobre = () => {
                         <ul>
                             <li>HTML5/CSS3</li>
                             <li>JavaScript (ES6)</li>
+                            <li>React.js (hooks)</li>
+                            <li>React Native</li>
+                            <li>Styled Components</li>
+                            <li>Next.js</li>
+                            <li>Gatsby.js</li>
                             <li>jQuery</li>
                             <li>SCSS/Sass</li>
-                            <li>Web Design Responsivo</li>
-                            <li>React.JS (hooks)</li>
-                            <li>React Native (me aventurando)</li>
-                            <li>Styled Components</li>
-                            <li>Gatsby.js</li>
                             <li>Node.js</li>
                             <li>Vue.js</li>
                             <li>Banco de Dados (MongoDB, MySQL, Postgres)</li>
                             <li>Git (Github e Bitbucket)</li>
-                            <li>Clean Code</li>
                             <li>O que eu não sei, aprendo rápido <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
                         </ul>
                     </div>
 
                     <div>
                         <h2>Habilidades</h2>
-                        <p>Áreas que, apesar de não ser profissional, estou sempre em contato nos meus projetos pessoais.</p>
+                        <p>Áreas de conhecimento ou técnicas que, apesar de não serem tecnologias, tenho contato diariamente.</p>
                         <ul>
-                            <li>Design Gráfico (Photoshop, Illustrator)</li>
+                            <li>Clean Code</li>
+                            <li>Web design responsivo</li>
+                            <li>Metodologia Scrum</li>
                             <li>UX/UI (Figma, Photoshop)</li>
                             <li>Escrita (copywriting)</li>
-                            <li>Google Analytics</li>
-                            <li>SEO</li>
                         </ul>
                     </div>
 

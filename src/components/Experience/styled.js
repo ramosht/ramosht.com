@@ -24,6 +24,7 @@ export const ExperienciaWrapper = styled.div`
     }
 
     .description {
-        margin-top: .25rem;
+        margin-top: .5rem;
+        font-size: 0.875rem;
     }
 `;
