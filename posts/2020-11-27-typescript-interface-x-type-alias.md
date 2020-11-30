@@ -58,7 +58,7 @@ type Table = {
 
 Essa é a diferença mais marcante. Porém, se fosse a única, eu poderia usar type aliases para declarar qualquer tipo, e tava tudo bem, não é mesmo? Na verdade, não precisaria nem de interfaces, já que um type alias também serve para objetos.
 
-Porém, as diferenças vão um pouquinho mais além do que isso. Entao, se sa assa- 
+Porém, as diferenças vão um pouquinho mais além do que isso. Então, listei abaixo algumas semelhanças e diferenças que encontrei, para ficar um pouco mais claro essa diferenciação:
 
 ### Semelhança: Objectos e funções
 
@@ -142,7 +142,7 @@ interface Person { name: string, age: number }
 type Human = Person & { walk: (steps: number) => void }
 ```
 
-*Obs.: Há diferentes interfaces e tipos com o mesmo nome para fins didáticos, no código foi preciso deixar cada um em um escopo isolado.*
+*Obs.: Há diferentes interfaces e tipos com o mesmo nome para fins didáticos. No código, foi preciso deixar cada um em um escopo isolado.*
 
 ### Semelhança: Implementando uma interface ou type alias em uma classe
 
@@ -154,8 +154,6 @@ Uma classe pode implementar tanto uma interface quando um type alias, e a sintax
 interface PolygonSides {
     x: number
     y: number
-
-    getArea: (sides: Array<number>) => number
 }
 
 class Square implements PolygonSides {
@@ -195,7 +193,7 @@ O código acima retornará o erro
 
 > *A class can only implement an object type or intersection of object types with statically known members.*
 
-Ou, em português:
+Ou, em tradução livre:
 
 > Uma classe somente pode implementar um objeto ou interseção de objetos com uma quantidade de membros bem definida.
 
