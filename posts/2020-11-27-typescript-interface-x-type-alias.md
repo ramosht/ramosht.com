@@ -5,7 +5,7 @@ description: Sabe a diferença entre type aliases e interfaces? Na prática, ele
   um e outro.
 category: Typescript
 date: 2020-11-27 06:00:05
-thumbnail: assets/img/nordwood-themes-e9tfh39irpe-unsplash.jpg
+thumbnail: assets/img/captura-de-tela-2020-11-30-às-09.41.41-1-.jpg
 ---
 No último final de semana, eu peguei o [mini-curso de Typescript do Willian Justen](https://youtu.be/mRixno_uE2o) e, apesar de já usar typescript no meu dia a dia, achei bem legal para entender um pouco melhor algumas coisas que não peguei aprendendo na prática, ou entender melhor algumas práticas que eu usava mas não entendia muito a fundo a razão de usar. Além de ser gratuito, no YouTube, é bem curto (15 aulas). Recomendo, com certeza, para qualquer um que queira aprender a tecnologia ou entender um pouco melhor.
 
