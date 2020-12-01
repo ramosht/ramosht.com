@@ -9,7 +9,7 @@ thumbnail: assets/img/captura-de-tela-2020-11-30-às-09.41.41-1-.jpg
 ---
 No último final de semana, eu peguei o [mini-curso de Typescript do Willian Justen](https://youtu.be/mRixno_uE2o) e, apesar de já usar typescript no meu dia a dia, achei bem legal para entender um pouco melhor algumas coisas que não peguei aprendendo na prática, ou entender melhor algumas práticas que eu usava mas não entendia muito a fundo a razão de usar. Além de ser gratuito, no YouTube, é bem curto (15 aulas). Recomendo, com certeza, para qualquer um que queira aprender a tecnologia ou entender um pouco melhor.
 
-Porém, revisando as minhas anotações, depois de já ter terminado o curso, acabei ficando com a seguinte dúvida: **qual a diferença entre type aliases e interfaces**?
+Porém, durante o curso, lembrei de uma dúvida que eu já havia tido antes: **qual a diferença entre type aliases e interfaces**?
 
 Na prática, eles parecem ser a mesma coisa: apesar da sintaxe diferente, você pode usar ambos para declarar objetos, pode implementá-los em classes e pode até rolar uma herança ali, entre eles. Então, tanto faz usar um ou outro?
 
