@@ -8,5 +8,5 @@
     "city": "São Paulo",
     "state": "São Paulo"
   },
-  "description": "Apliquei aulas de desenvolvimento com React, ensinando os fundamentos e os principais conceitos da tecnologia em um mini-curso com duração de 2 horas (dividido em várias aulas)."
+  "description": "The project was a course of React that I developed for Gama Academy, to be part of one of the Gama Experience, one of their major courses. In this course, I covered the fundamentals of this technology, such as components, state, properties, hooks, routes (using react-router-dom), HTTP requests, events, style (using styled-components), how to handle with errors and UX."
 }

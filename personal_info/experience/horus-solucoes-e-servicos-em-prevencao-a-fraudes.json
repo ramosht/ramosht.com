@@ -1,6 +1,6 @@
 {
   "company": "Horus Soluções e Serviços em Prevenção a Fraudes",
-  "occupation": "Atendente de Negócios",
+  "occupation": "Business Attendant",
   "start_date": "2016-02-01",
   "end_date": "2017-07-01",
   "is_current": false,
@@ -8,5 +8,5 @@
     "city": "Votorantim",
     "state": "São Paulo"
   },
-  "description": "Análise e prevenção de fraudes em passagens aéreas. Também trabalhei no setor de TI, auxiliando na manutenção das máquinas, manutenção do sistema e no MIS."
+  "description": "Analysis and fraud prevention of airline tickets. I also worked at the IT sector, helping with the maintenance of the infrastructure and also with the MIS."
 }

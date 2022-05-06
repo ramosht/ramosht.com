@@ -1,6 +1,6 @@
 {
-  "company": "GO.K",
-  "occupation": "Desenvolvedor Front-end React",
+  "company": "Starbem",
+  "occupation": "Frontend Engineer (React)",
   "start_date": "2020-09-01",
   "end_date": "",
   "is_current": true,
@@ -8,5 +8,5 @@
     "city": "São Paulo",
     "state": "São Paulo"
   },
-  "description": "Desenvolvimento de aplicações web e mobile com React e React Native."
+  "description": "Development of the app (Starbem), using React Native, and the platform used by the doctors, using React. We used the most modern version of React (Hooks), with Context API to manage the state."
 }

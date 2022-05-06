@@ -62,18 +62,18 @@ const Sobre = () => {
 
             <main>
                 <PS.PostHeader>
-                    <h1>Um pouco sobre mim</h1>
+                    <h1>About me</h1>
                 </PS.PostHeader>
                 <PS.MainContent>
                     <div>
-                        <p>Meu nome é Guilherme, nasci em Sorocaba/SP e sou desenvolvedor front-end react (web e mobile).</p>
-                        <p>Comecei minha carreira como desenvolvedor freelancer, trabalhando com empresas de pequeno porte. Nesse tempo, tive contato com diversas áreas, tais como front-end, back-end, UX/UI, design, copywriting, enfim... Tudo o que aparecia para fazer durante o desenvolvimento dos sites, era eu que encarava e, apesar de parecer negativo, eu achei isso maravilhoso, porque pude explorar diversas ferramentas e técnicas que, do contrário, talvez nunca teria contato.</p>
-                        <p>Sou uma pessoa bastante inquieta e eclética. Meus hobbies incluem: fotografia, música e esportes. Meu gosto músical também é variado: gosto de qualquer coisa, desde que seja rock (é brincadeira <span role="img" aria-label="Emoji com a língua para fora">😝</span> - ou não).</p>
-                        <p>Estou o tempo todo aprendendo tecnologias e conceitos novos e tentando entender como posso usá-los para melhorar ainda mais a vida das pessoas. Afinal de contas, tecnologia é sobre isso, não é? Pessoas.</p>
+                        <p>My name is Guilherme and I'm a Brazilian frontend engineer (React and React Native) </p>
+                        <p>I started my career as a freelancer web designer, working for small companies. In this meantime, I had contact with many areas, like frontend, backend, UX/UI, graphic design, copywriting, etc. I had to deal with everything that required some attention during the development of the websites and, despite of seems like something negative, it was wonderful, because I could explore many areas, tools and techniques which, otherwise, I would hardly have contact. </p>
+                        <p>I'm a restless and curious person. My hobbies are photography, music, sports and languages. Also, my musical taste are also very ecletic: my playlists might include Metallica, Taylor Swift or Michael Jackson (not in this specific order).</p>
+                        <p>I'm always learning new technologies and concepts and trying to learn how I can use them to improve other people's life. Because, after all, technology is about that, right? People.</p>
                     </div>
 
                     <div>
-                        <h2>Experiência</h2>
+                        <h2>Experience</h2>
                         
                         {allExperienceJson.edges.map(item => {
                             const experience = item.node;
@@ -102,7 +102,7 @@ const Sobre = () => {
                     </div>
 
                     <div>
-                        <h2>Cursos e Especializações</h2>
+                        <h2>Courses and Specializations</h2>
                         {allCertificationsJson.edges.map(item => {
                             const certification = item.node;
 
@@ -123,8 +123,8 @@ const Sobre = () => {
                     </div>
 
                     <div>
-                        <h2>Conhecimentos</h2>
-                        <p>As tecnologias e conceitos com os quais estou em contato diariamente</p>
+                        <h2>Knowledges</h2>
+                        <p>The technologies and concepts which I have contact daily</p>
                         <ul>
                             <li>HTML5/CSS3</li>
                             <li>JavaScript (ES6)</li>
@@ -137,28 +137,30 @@ const Sobre = () => {
                             <li>SCSS/Sass</li>
                             <li>Node.js</li>
                             <li>Vue.js</li>
-                            <li>Banco de Dados (MongoDB, MySQL, Postgres)</li>
+                            <li>Database (MongoDB, MySQL, Postgres)</li>
                             <li>Git (Github e Bitbucket)</li>
-                            <li>O que eu não sei, aprendo rápido <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
+                            <li>What I still don't know, I can learn quickly <span role="img" aria-label="Emoji de mago">🧙🏻‍♂️</span></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h2>Habilidades</h2>
+                        <h2>Soft skills</h2>
                         <p>Áreas de conhecimento ou técnicas que, apesar de não serem tecnologias, tenho contato diariamente.</p>
+                        <p>Knowledges or techniques that are not technologies, but I also have contact daily</p>
                         <ul>
                             <li>Clean Code</li>
                             <li>Web design responsivo</li>
                             <li>Metodologia Scrum</li>
                             <li>UX/UI (Figma, Photoshop)</li>
-                            <li>Escrita (copywriting)</li>
+                            <li>Copywriting</li>
                         </ul>
                     </div>
 
                     <div>
-                        <h2>Idiomas</h2>
+                        <h2>Idioms</h2>
                         <ul>
-                            <li>Inglês: Intermediário/Avançado</li>
+                            <li>Portugues (Native Speaker)</li>
+                            <li>English (C1)</li>
                         </ul>
                     </div>
 
