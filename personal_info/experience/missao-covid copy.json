@@ -8,11 +8,5 @@
     "city": "São Paulo",
     "state": "São Paulo"
   },
-  "description": "The project was a mission to guarantee free and online doctor's appointments to people with symptoms of covid, through telemedicine. It was idealized by Cristiano Kanashiro (CEO of GO.K) and Leandro Rubio (CEO of Starbem) and the platform was first built in two days by Julio Sousa (former Tech Lead of GO.K and current CTO of Starbem).
-
-  I joined Missão Covid as a volunteer, alongside with other 19 profesionals, and we worked togeter to developed and mantain the new features of the platform. We used React, Node.js and GraphQL, and it was cross-platform.
-  
-  During the pandemic, more than 120,000 people were helped by more than 1,500 doctors that passed through the platform.
-  
-  Read more about the project: https://missaocovid.com.br/sobre-a-missao"
+  "description": "The project was a mission to guarantee free and online doctor's appointments to people with symptoms of covid, through telemedicine. It was idealized by Cristiano Kanashiro (CEO of GO.K) and Leandro Rubio (CEO of Starbem) and the platform was first built in two days by Julio Sousa (former Tech Lead of GO.K and current CTO of Starbem). I joined Missão Covid as a volunteer, alongside with other 19 profesionals, and we worked togeter to developed and mantain the new features of the platform. We used React, Node.js and GraphQL, and it was cross-platform. During the pandemic, more than 120,000 people were helped by more than 1,500 doctors that passed through the platform. Read more about the project: https://missaocovid.com.br/sobre-a-missao"
 }
