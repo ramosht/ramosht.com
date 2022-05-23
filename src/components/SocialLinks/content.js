@@ -9,11 +9,15 @@ const links = [
     },
     {
         label: 'Twitter',
-        url: 'https://twitter.com/ramos_ht'
+        url: 'https://twitter.com/ramosht_'
     },
     {
         label: 'Instagram',
-        url: 'https://instagram.com/ramosht_'
+        url: 'https://instagram.com/theguilhermeramos'
+    },
+    {
+        label: 'Instagram',
+        url: 'https://instagram.com/guilhermeramosphotography'
     },
 ]
 

@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
-    position: `Desenvolvedor Front End`,
-    description: `Desenvolvedor, fotógrafo e músico. Escrevo sobre o que imaginar que possa agregar algum valor 🧙🏻‍♂️`,
+    position: `Frontend Engineer`,
+    description: `Developer, photographer and traveler. I write about anything that I think if might add some value, from technology to art 🧙🏻‍♂️`,
     author: `@guilherme`,
-    lang: `pt-br`,
-    siteUrl: 'https://guiramos.dev/',
+    lang: `en-IE`,
+    siteUrl: 'https://guilhermeramos.dev/',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -82,7 +82,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Guilherme Ramos`,
-        short_name: `ramosht`,
+        short_name: `guilhermeramos`,
         start_url: `/`,
         background_color: `#3D2C40`,
         theme_color: `#3D2C40`,
@@ -99,7 +99,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://guiramos.dev/`,
+        siteUrl: `https://guilhermeramos.dev/`,
       },
     },
     `gatsby-plugin-sitemap`,
