@@ -1,5 +1,5 @@
 import { format, formatDistance, parseISO } from 'date-fns';
-import pt from 'date-fns/locale/pt'
+import enGB from 'date-fns/locale/en-GB'
 
 export default class FormatDate {
   formatDate(date) {
@@ -9,7 +9,7 @@ export default class FormatDate {
       const formattedDate = format(
         new Date(parsedDate),
         "MMMM yyyy",
-        {locale: pt}
+        {locale: enGB}
       );
 
       const capitalizedFormattedDate = formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
@@ -30,13 +30,13 @@ export default class FormatDate {
       difference = formatDistance(
         parsedStartDate,
         new Date(),
-        {locale: pt}
+        {locale: enGB}
       );
     } else {
       difference = formatDistance(
         parsedStartDate,
         parsedEndDate,
-        {locale: pt}
+        {locale: enGB}
       );
     }
 
