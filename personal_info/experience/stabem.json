@@ -1,0 +1,12 @@
+{
+  "company": "Starbem",
+  "occupation": "Frontend Engineer (React)",
+  "start_date": "2020-09-01",
+  "end_date": "2022-09-31",
+  "is_current": false,
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo"
+  },
+  "description": "At the beginning of the pandemic, I had the opportunity to be a volunteer in a project called Missão Covid (Mission Covid), which intended to provide free doctor appointments for anyone who had symptoms of Covid-19. A few months later, this project became Starbem and I was invited to integrate the first team. At Starbem I worked mostly with React Native (w/ Typescript) to develop the mobile app, but also worked on the web application used by the doctors. Here I had a great experience in building a mobile app from scratch."
+}

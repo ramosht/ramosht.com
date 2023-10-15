@@ -1,0 +1,12 @@
+{
+  "company": "Pflegia",
+  "occupation": "Fullstack Developer",
+  "start_date": "2022-07-01",
+  "end_date": "",
+  "is_current": true,
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo"
+  },
+  "description": "At Plegia I work as a full-stack developer, developing new features and maintaining the existing ones, for both apps (Admin Panel for internel process and the application used by the candidates). I work mostly with NestJS with Postgres in the back-end and with Next.js with Tailwind CSS in the front-end. But I also had experience with Heroku, Segment (CPD) and Scrum methodology. Here I have the pleasure of being part of a team of many great developers with whom I have the opportunity to always learn and grow."
+}
