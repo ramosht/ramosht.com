@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Guilherme Ramos`,
     name: `Guilherme Ramos`,
-    position: `Frontend Engineer`,
-    description: `Developer, photographer and traveler. I write about anything that I think if might add some value, from technology to art 🧙🏻‍♂️`,
+    position: `Fullstack Developer`,
+    description: `Creative, restless and curious software developer. To me, technology is an end in itself but a bridge to help us to solve problems and make the world better with it 🧙🏻‍♂️`,
     author: `@guilherme`,
     lang: `en-IE`,
     siteUrl: 'https://guilhermeramos.dev/',
