@@ -5,11 +5,7 @@ const links = [
     },
     {
         label: 'Github',
-        url: 'https://github.com/ramosht'
-    },
-    {
-        label: 'Twitter',
-        url: 'https://twitter.com/ramosht_'
+        url: 'https://github.com/guilhermeramosht'
     },
     {
         label: 'Instagram',
@@ -17,7 +13,7 @@ const links = [
     },
     {
         label: 'Instagram',
-        url: 'https://instagram.com/guilhermeramosphotography'
+        url: 'https://instagram.com/guilhermeramos.portraits'
     },
 ]
 
